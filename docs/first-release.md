@@ -21,4 +21,4 @@ The article itself explains the relevance of additional observations such as win
 
 Photo-sequence lessons, self-assessment and the observation journal are deferred. The article text still teaches changes over time. Mountain-specific forecasting and the broader encyclopedia topics fall outside the initial setting.
 
-Technology stack, architecture and target platform coverage will be discussed separately. This product agreement specifies the mobile experience and requested delivery artifact.
+The working stack is Capacitor, React and TypeScript. Android is the first delivery platform, with iOS planned. Detailed architecture belongs in the Spec Kit implementation plan.
