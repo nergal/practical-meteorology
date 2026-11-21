@@ -1,50 +1,69 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# Practical Meteorology Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Start with what the observer can see
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+Readers must be able to browse photographs, compare a possible match with other images
+and choose how far to explore. Captions must point to a visible feature in the frame.
+Prior knowledge of cloud names, a camera and automated identification cannot be prerequisites.
+The learning goal is met when a beginner later notices a feature unaided and can explain
+its significance or identify a useful change to watch for.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### II. Tie weather interpretations to evidence
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+Articles must connect an observable sign to a physical process and explain how another
+observation could strengthen or weaken an interpretation. Qualitative outlooks for rain,
+wind and temperature must distinguish present conditions from possible developments.
+Use a time horizon supported by the signs within the intended 1 to 24 hour window.
+For example, high wisps alone give little basis for predicting rain at the observer's
+location. A spreading veil and subsequent thickening provide additional evidence.
+Any supporting signs must be accessible in the field through personal observation,
+including felt changes in wind or temperature and optional barometer readings.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### III. Make the complete atlas available on first launch offline
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+The build must include every photograph, caption, article and internal reference needed
+to explore the atlas. Release verification must start with a fresh installation, disable
+connectivity before the first launch and check the complete collection, including entries
+never opened before. A reader at sea must be able to use the atlas under those conditions.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### IV. Use identifiable, documented photographs
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+Every published photograph must have a checked cloud identification and documented rights
+for offline redistribution. Record its source, creator, license or permission, required
+attribution and modifications. Each caption must identify the relevant cloud when several
+appear together. Historical claims and optional facts must have credible sources.
+The editorial criteria are in the [atlas editorial guide](../../docs/atlas-editorial-guide.md).
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### V. Maintain the repository in English
+
+Repository content, filenames, specifications, code, comments, asset descriptions and
+commit messages must use English. The project owner decides the published interface
+and article languages separately.
+
+## Release Scope
+
+The [first-release agreement](../../docs/first-release.md) defines the MVP collection,
+field settings, deferred features and APK handoff. The [product brief](../../docs/product-brief.md)
+defines the learning outcome. Release quantities and platform choices belong in the release
+agreement and technical plan so they can evolve independently of these principles.
+
+## Specification and Review
+
+Write observable behavior and acceptance scenarios in the Spec Kit feature specification.
+Review the specification with the project owner before planning implementation. Record
+technical choices in the plan, use its Constitution Check to identify applicable principles
+and translate acceptance scenarios into verifiable tasks. During review, check the resulting
+behavior or content against those scenarios. Refer unresolved product decisions to the owner.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Propose amendments with their rationale and the specifications, plans or content they affect.
+The project owner approves substantive changes. Record the amendment date and apply semantic
+versioning: major for incompatible changes to principles, minor for additions or material
+expansions, and patch for clarifications. Reconcile affected documents when adopting an
+amendment. If a planned change conflicts with a principle, resolve the conflict with the
+owner before implementation.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-11-21 | **Last Amended**: 2026-11-21
