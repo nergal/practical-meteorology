@@ -1,14 +1,14 @@
 # Cumulus photo shortlist
 
-Three independent observations for editorial review. Their order is for browsing and does not represent a time sequence. The source records identify each subject. The identification check compares the visible outlines, rounded tops and bases with the [WMO International Cloud Atlas description of Cumulus](https://cloudatlas.wmo.int/en/clouds-genera-cumulus.html).
+Three independent observations for editorial review. Their order is for browsing and does not represent a time sequence. The identification check compares the visible outlines, rounded tops and bases with the [WMO International Cloud Atlas description of Cumulus](https://cloudatlas.wmo.int/en/clouds-genera-cumulus.html).
 
-## 1. Representative view over open pasture
+## 1. An isolated cloud against blue sky
 
-![Detached clouds above open pasture](01-pasture.jpg)
+![White cloud with a rounded top and a shaded base against blue sky](01-isolated-cloud.jpg)
 
-**Caption:** Look above the pasture. Separate clouds have bright, rounded tops and darker undersides. Near the horizon, the same shapes appear much smaller.
+**Caption:** Trace the uneven, rounded top, then follow the darker, nearly level lower edge. The blue sky around the cloud makes its outline easy to follow.
 
-**Credit:** “Cumulus humilis clouds.jpg” by Toby Hudson. Brightness adjustment by Jacek Halicki. This review copy was resized and re-encoded with embedded metadata removed. The copy is distributed under CC BY-SA 3.0. [Source and file history](https://commons.wikimedia.org/wiki/File:Cumulus_humilis_clouds.jpg) · [License](https://creativecommons.org/licenses/by-sa/3.0/)
+**Credit:** “Single cloud on sky” by Paolo Neo. Original JPEG, released into the public domain by the photographer. The Cumulus identification is based on the detached outline, rounded lobes and shaded base visible in the frame, using the WMO description above. [Source and rights declaration](https://commons.wikimedia.org/wiki/File:Single_cloud_on_sky.jpg#Licensing)
 
 ## 2. Shallow clouds above a treeline
 
