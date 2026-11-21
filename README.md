@@ -7,6 +7,7 @@ An interactive encyclopedia for people who want to read the weather for themselv
 - [Product brief](docs/product-brief.md) records the audience, learning goal, observation methods and longer-term direction.
 - [First release](docs/first-release.md) describes the agreed browsing experience, scope, delivery boundary and acceptance checks.
 - [Atlas editorial guide](docs/atlas-editorial-guide.md) defines the photographic collection and the content of each article.
+- [Cloud photographs](docs/photo-selection/README.md) groups the atlas images, captions and credits by genus.
 
 Product discovery for the first release is complete. The working stack is Capacitor, React and TypeScript, with Android first and iOS planned. The requested build artifact is an APK. The project owner handles distribution.
 

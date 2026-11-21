@@ -1,6 +1,6 @@
-# Cumulus photo shortlist
+# Cumulus photographs
 
-Three independent observations for editorial review. Their order is for browsing and does not represent a time sequence. The identification check compares the visible outlines, rounded tops and bases with the [WMO International Cloud Atlas description of Cumulus](https://cloudatlas.wmo.int/en/clouds-genera-cumulus.html).
+The identification check compares the visible outlines, rounded tops and bases with the [WMO International Cloud Atlas description of Cumulus](https://cloudatlas.wmo.int/en/clouds-genera-cumulus.html).
 
 ## 1. An isolated cloud against blue sky
 

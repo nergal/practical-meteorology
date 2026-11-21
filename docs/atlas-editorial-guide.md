@@ -19,7 +19,7 @@ Prepare an entry for each of the ten cloud genera. The visual descriptions below
 
 ## Photographs
 
-No collection has been supplied. Source real photographs suitable for redistribution within an offline app. For every image, record the creator, original source, license or permission, required attribution and any modifications. Verify the identification against a reliable meteorological source.
+The [photo collection](photo-selection/README.md) contains the selected images and their credits. Source real photographs suitable for redistribution within an offline app. For every image, record the creator, original source, license or permission, required attribution and any modifications. Verify the identification against a reliable meteorological source.
 
 Select a first image whose characteristic feature is easy to see on a phone. Prefer a frame filled by the cloud and sky alone, with a clear view of the identifying feature. Use the other two to show variation in lighting, distance, viewpoint or development while retaining a recognizable feature. Write a caption for each specific frame. When several genera appear together, identify where to look.
 
