@@ -1,16 +1,28 @@
 # Altocumulus
 
-## Why each clump has a shaded side
+## What you can see from the ground
 
-Many white clumps or short bands are visible high overhead. One side of a clump often catches the sun while the other looks grey. Less sunlight gets through the thicker part. The shading gives each clump depth. In [cirrocumulus](cirrocumulus.md), which can make a similar pattern, the individual white grains look smaller and show little shading.
+Look overhead for groups of white or grey clumps or rolls. One side of each clump often looks bright and the other grey. In a similar patch of [cirrocumulus](cirrocumulus.md), the white grains look smaller and show little or no shade.
 
-In temperate regions altocumulus usually hangs 2–7 km up. Each clump is made mostly of tiny water drops. They form where air rises a little and cools enough for water vapour to turn into drops. Nearby, air may sink and warm again. Drops evaporate there, leaving a blue gap. Where the air moves in waves, the clumps can line up in rows.
+## How the cloud is built
 
-In the third photograph the clouds look like smooth lenses. This can happen downwind of hills, where the wind sets the air rising and sinking in waves. Drops keep forming on the rising side and evaporating on the sinking side. A lens can hang over the same spot while wind blows through it.
+These clumps often lie side by side in a broad patch or sheet. In temperate regions they usually lie about 2–7 kilometres above the ground. They consist mostly of tiny water drops. Less light gets through the thicker parts, which gives the clumps their grey shading.
 
-## A morning pattern worth remembering
+## How it forms
 
-Rows of flat clumps often drift by without bringing rain to the ground. Look again if white turrets rise along a strip of cloud in the morning, like battlements along a wall. Each turret marks a place where air keeps rising. That is one clue that [thunderclouds](cumulonimbus.md) could grow later. The turrets alone give little indication of where a shower might fall.
+As moist air rises, it cools and some of its invisible water vapour becomes tiny drops. Nearby, sinking air warms and the drops evaporate, leaving a gap. When the air rises and falls in waves, clouds can form in rows along the crests. Downwind of hills, a smooth lens can stay in place as wind blows through it. Drops keep forming where the air rises and evaporating where it sinks.
+
+## What it means for the weather
+
+The ground often stays dry under flat rows of altocumulus. Look again in an hour or two. Widening gaps suggest the layer is breaking up, and longer spells of sunshine can warm the ground. If small turrets grow along a morning band, like teeth along the top of a wall, air is still rising there. That can be a clue that [thunderclouds](cumulonimbus.md) may develop later. Watch for a separate, much taller cloud that keeps growing. The small turrets alone give little indication of where a shower might fall.
+
+## A name from Japan
+
+In Japan these clouds are sometimes called *hitsujigumo* (ひつじ雲), or “sheep clouds.” Look for rounded white clumps gathered like a flock.
+
+## Weather folklore
+
+A Japanese small-boat navigation guide records a sign of fair weather: an unbroken overcast gives way to altocumulus. The change is the clue. If blue gaps keep widening, that supports the idea that the sky is clearing for now.
 
 ## Photographs
 
@@ -29,6 +41,12 @@ The cloud on the right is smooth and tapers at both ends. This is the lens-shape
 ## Reference
 
 [WMO International Cloud Atlas · Altocumulus](https://cloudatlas.wmo.int/en/clouds-genera-altocumulus.html)
+
+[Japan Meteorological Agency’s Meteorological Research Institute · Japanese cloud names](https://www.mri-jma.go.jp/Dep/typ/araki/sorawatch.html)
+
+[Ibaraki Prefecture · “Sheep clouds” and the resemblance to a flock](https://www.edu.pref.ibaraki.jp/katei/images/page/11/takahagioutdoor.pdf)
+
+[Japan Ministry of Land, Infrastructure, Transport and Tourism · Small-boat navigation guide, weather and clouds](https://www.mlit.go.jp/common/001374383.pdf#page=127)
 
 [Photo credits and reuse terms](../../../docs/photo-selection/altocumulus/README.md)
 

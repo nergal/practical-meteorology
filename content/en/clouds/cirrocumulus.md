@@ -1,14 +1,28 @@
 # Cirrocumulus
 
-## What makes the white ripples?
+## What you can see from the ground
 
-Tiny white specks cover a patch of sky. Blue shows in the gaps, and some specks form rows like ripples on water. If the patch is high overhead, try holding out your hand at arm’s length. A single speck is usually narrower than the tip of your little finger. If the clumps look larger and have a grey side, compare them with [altocumulus](altocumulus.md).
+Tiny white grains cover a patch of sky. In places they form rows like ripples on water, with narrow streaks of blue between them. Where the patch is high in the sky, hold out your hand at arm’s length. Most grains should fit behind the tip of your little finger. If the clumps look larger and have grey sides, compare them with [altocumulus](altocumulus.md).
 
-Each speck is a whole cluster of tiny ice crystals. In temperate regions these clouds are usually 5–13 km above the ground. Air sometimes moves in waves at that height. Where it rises it cools, and crystals can form from the water vapour in it. Where those crystals catch the sunlight, you see a white ripple. Where the air sinks and warms, crystals disappear and blue sky shows through again.
+## How the cloud is built
 
-## What happens at ground level?
+This cloud forms a thin patch or sheet of many small clumps. In temperate regions the layer usually lies about 5–13 kilometres above the ground. The clumps are made mostly of tiny ice crystals and usually look white throughout.
 
-This rippled sheet is usually thin. Even if crystals fall from it, on the long journey down they usually turn back into invisible vapour. It often stays dry beneath the cloud. Look at the gaps later. If the rows fade, the sky is clearing. If a [white veil](cirrostratus.md) fills the gaps, watch whether it turns grey and thickens. That change over several hours can come before rain.
+## How it forms
+
+High in the sky, air sometimes rises and sinks in waves. The rising air expands and cools, and ice crystals can grow from invisible water vapour. Sunlight scattered by the crystals makes each row visible. In the gaps between rows, the air sinks and warms, and the crystals turn back into vapour. The rise and fall of the air can give the cloud its repeating pattern.
+
+## What it means for the weather
+
+It usually stays dry beneath the ripples. Any ice crystals that fall generally turn back into vapour before they reach the ground. Look at the gaps again in a few hours. If blue spreads between the rows, the patch is breaking up. If more of the sky fills with a [thin white veil](cirrostratus.md) and the veil gives way to a thicker grey sheet, rain may follow from that thicker cloud.
+
+## A name from Japan
+
+Japanese meteorologist Kentaro Araki records the name *urokogumo* (うろこ雲), meaning “fish-scale cloud”. When the grains crowd together in rows, their rounded edges resemble the overlapping scales of a fish.
+
+## Weather folklore
+
+A saying recorded in Newburyport, Massachusetts, in an 1896 folklore collection pairs a “mackerel’s back” with “mare’s tails” and has ships lower their sails. The first image describes a sky patterned like fish scales. The second describes wisps of [cirrus](cirrus.md). Several kinds of cloud can make a scaly pattern. If thicker cloud keeps arriving and your barometer is falling, you have better grounds to expect a change than from the pattern alone.
 
 ## Photographs
 
@@ -24,9 +38,11 @@ Narrow blue lanes separate the white rows above the trees and bring out the ripp
 
 The tiny grains stand out in the lower half of the picture, below the long bright band.
 
-## Reference
-
 [WMO International Cloud Atlas · Cirrocumulus](https://cloudatlas.wmo.int/en/clouds-genera-cirrocumulus.html)
+
+[Meteorological Research Institute of Japan · Everyday cloud names](https://www.mri-jma.go.jp/Dep/typ/araki/sorawatch.html)
+
+[Fanny D. Bergen · Current Superstitions (1896), saying 1025](https://www.gutenberg.org/ebooks/18992)
 
 [Photo credits and reuse terms](../../../docs/photo-selection/cirrocumulus/README.md)
 

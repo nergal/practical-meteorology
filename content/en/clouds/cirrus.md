@@ -1,18 +1,30 @@
 # Cirrus (Ci)
 
-## What makes a white feather in the sky?
+## What you can see from the ground
 
-White threads stretch across the blue. Some start at a bright tuft and trail off in a curved tail. In temperate regions these clouds usually hang 5–13 km up. It is so cold there that a white streak consists of countless tiny ice crystals. Each is too small to see from the ground. Together they scatter enough sunlight for the cloud to show up.
+Thin white strands stand out against blue sky, like loose feathers. Some curl into hooks. Others spread into fans or run in nearly parallel lines. Look for separate strands with blue gaps between them.
 
-The crystals slowly fall. A little lower down, the wind may blow faster or in a different direction. It carries the ice sideways, drawing it into a feathery trail. The trail shows how the air is moving kilometres above you. At ground level it can be quite calm.
+## How the cloud is built
 
-## Does it mean rain?
+In temperate regions, these clouds typically lie about 5–13 km above the ground. Each strand contains countless tiny ice crystals. Together they scatter sunlight, which makes the strand look white.
 
-Ice from a thin streak usually disappears on the way down as it turns back into invisible water vapour. A few white threads can cross the sky on a perfectly dry day.
+## How it forms
 
-Notice whether blue sky shows between them. If a [thin white veil](cirrostratus.md) fills the gaps over the next few hours and the sky beneath it turns grey, a wide band of rain or snow may be approaching. This can happen as warmer air advances and rises over colder air. From a distance you see the highest clouds first. Thicker clouds that can bring steady rain or snow may arrive later.
+When moist air rises and cools high in the atmosphere, water vapour can turn directly into ice crystals. Some crystals slowly fall into air where the wind moves at a different speed or in a different direction. This draws them out into a long, sometimes curved tail.
 
-If you have a barometer, compare readings taken at the same place. If pressure has been falling for several hours while the cloud thickens, you have another sign that the weather is changing.
+## What it means for the weather
+
+A few wisps can pass on a dry day. Ice falling from them usually turns back into water vapour before reaching the ground. The streaks reflect winds high overhead, and it can be calm where you stand.
+
+Look again in a few hours. If a [thin white veil](cirrostratus.md) spreads across the gaps and the sky later turns grey as thicker clouds arrive, the boundary between warmer and colder air may be approaching. This boundary is called a front. When warmer air rises over colder air, the highest clouds can appear first, followed by lower, thicker clouds that may bring steady rain or snow. Falling pressure at the same location adds another clue.
+
+## Where the name comes from
+
+The World Meteorological Organization traces *cirrus* to a Latin word for a lock of hair, a tuft of horsehair or a bird’s tuft. The name fits the thin strands that flare or curl at one end.
+
+## Weather folklore
+
+In Scotland, feathery streaks were called “goat’s hair” and taken as a sign of wind to come. The streaks show how the wind is carrying ice aloft. On the water, you can check whether the wind is picking up where you are. Is a patch of ripples spreading? Does your sail fill more often? High streaks can drift over smooth water too.
 
 ## Photographs
 
@@ -29,6 +41,8 @@ The wisps above the ridge curl into hooks, each with a fine tail.
 On the left, a broad white streak separates into fine, nearly parallel threads.
 
 [WMO International Cloud Atlas · Cirrus](https://cloudatlas.wmo.int/en/clouds-genera-cirrus.html)
+
+[WMO International Cloud Atlas · Origin of the Latin names](https://cloudatlas.wmo.int/appendix-1-etymology-of-latin-names-of-clouds.html) · [Dictionaries of the Scots Language · Goat’s hair](https://dsl.ac.uk/entry/snd00071667)
 
 [Photo credits and reuse terms](../../../docs/photo-selection/cirrus/README.md)
 

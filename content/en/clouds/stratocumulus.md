@@ -1,14 +1,30 @@
 # Stratocumulus (Sc)
 
-## Why the sky looks wavy
+## What you can see from the ground
 
 Broad, rounded bands stretch overhead. Part of a band catches the light, with a hollow of shade beside it. The wavy shape still shows even where all the blue gaps have closed. These rounded outlines are harder to find in a smooth sheet of [stratus](stratus.md).
 
-The bands are made of tiny water drops. One way to see them form is to watch scattered [white heaps of cloud](cumulus.md) over a plain. Air rises from warm ground and cools. Where invisible water vapour turns into drops, a white heap appears. Sometimes warmer air higher up keeps the rising air from travelling much farther. The heaps spread sideways and meet, making a sheet with rounded edges. In temperate regions the cloud usually begins less than 2 km above the ground.
+## How the cloud is built
 
-## What the gaps mean for the day
+This cloud forms a wide, shallow layer, sometimes with gaps between its rounded clumps. In temperate regions it usually lies within the lowest 2 kilometres above the ground. It is made mostly of tiny water drops. Where the layer is thicker, less sunlight gets through and the cloud looks darker from below.
 
-It often stays dry under this shallow cloud, though thicker patches can give light rain. You can feel the shade straight away. If the edges thin and the gaps grow wider, sunshine can warm the ground for longer. A single gap drifting overhead may give you only a few minutes of sun. At night some of the heat the ground gives off returns to the surface from the low clouds. With much the same wind, the ground usually cools more slowly than on a clear night.
+## How it forms
+
+One way to see it form is to watch scattered [cumulus clouds](cumulus.md) over a plain. Air rises from warm ground and cools. Where invisible water vapour turns into drops, a white heap appears. Sometimes a layer of warmer air higher up slows the rise. The tops spread sideways and may meet, making a sheet of rounded clumps.
+
+## What it means for the weather
+
+It often stays dry beneath this cloud, though thicker patches can bring light rain. This low cloud by itself tells you little about whether a spell of rain will arrive later. When you look again in an hour or two, check whether gaps are growing across the sky. A single gap drifting past may give you only a few minutes of sun. If more gaps open, sunshine can reach the ground for longer.
+
+At night the cloud sends some of the heat given off by the ground back towards the surface. If the wind stays much the same and the clouds persist, the ground usually cools more slowly than on a clear night.
+
+## Where the name comes from
+
+In 1840 the German meteorologist Ludwig Friedrich Kämtz added *Stratocumulus* to an earlier cloud classification. The name combines the Latin *stratus*, “layer”, and *cumulus*, “heap”. Look for the little heaps side by side in a broad layer.
+
+## Weather folklore
+
+In Ireland, schoolchildren recorded a saying about the morning sun: long rays of sunlight, followed shortly by cloud hiding the sun, were taken as a sign of rain. You can sometimes see such rays through gaps in stratocumulus. They are strips of sunlit air with neighbouring areas in shadow. The rays by themselves tell you little about rain. Look again later to see whether the gaps have closed and streaks of rain have appeared along the horizon.
 
 ## Photographs
 
@@ -25,6 +41,14 @@ Above the bright patch on the horizon the rolls have almost merged. Pockets of s
 Near the middle of the picture, blue gaps separate the broad, rounded clumps.
 
 [WMO International Cloud Atlas — Stratocumulus](https://cloudatlas.wmo.int/en/clouds-genera-stratocumulus.html)
+
+[WMO International Cloud Atlas — History of cloud nomenclature](https://cloudatlas.wmo.int/en/preface-to-the-1939-edition.html)
+
+[US National Weather Service — origins of the Latin cloud names](https://www.weather.gov/fgz/cloudscontrails)
+
+[Irish National Folklore Collection · Morning sunbeams](https://www.duchas.ie/en/cbes/4921828/4909737/5182583)
+
+[WMO · Sunbeams through cloud gaps](https://cloudatlas.wmo.int/crepuscular-rays.html)
 
 [Photo credits and reuse terms](../../../docs/photo-selection/stratocumulus/README.md)
 
