@@ -28,13 +28,13 @@ An Irish Schools’ Collection notebook from County Louth records the saying “
 
 ## Photographs
 
-![A nearly uniform grey sky with subtle changes in tone.](../../../docs/photo-selection/stratus/01-uniform-layer.jpg)
-
-Only the brightness changes across this patch of sky. There are no distinct rolls or separate clumps.
-
-![The sun above trees, with the more distant trees fading into mist.](../../../docs/photo-selection/stratus/02-sun-through-layer.jpg)
+![The sun above trees, with the more distant trees fading into mist.](../../../docs/photo-selection/stratus/01-sun-through-layer.jpg)
 
 The sun still has a sharp rim. Beyond the front row of trees, only faint outlines of the crowns show through.
+
+![A nearly uniform grey sky with subtle changes in tone.](../../../docs/photo-selection/stratus/02-uniform-layer.jpg)
+
+Only the brightness changes across this patch of sky. There are no distinct rolls or separate clumps.
 
 ![A grey sky over a beach and a long pier.](../../../docs/photo-selection/stratus/03-coastal-overcast.jpg)
 

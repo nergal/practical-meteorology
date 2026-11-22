@@ -97,6 +97,7 @@ a {
 
 .atlas {
   --surface: #e9edf0;
+  --photo-height: min(46svh, 26rem);
   --gutter: clamp(1.125rem, 6.7vw, 2rem);
   --safe-start: env(safe-area-inset-top, 0px);
   --safe-end: env(safe-area-inset-bottom, 0px);
@@ -170,15 +171,20 @@ a {
 }
 
 .atlas-card .atlas-photo {
-  min-block-size: min(48vw, 34svh, 15rem);
-  max-block-size: min(46svh, 26rem);
+  block-size: var(--photo-height);
   object-fit: cover;
   mask-image: linear-gradient(to bottom, black 74%, rgb(0 0 0 / 94%) 79%,
     rgb(0 0 0 / 70%) 85%, rgb(0 0 0 / 28%) 92%, transparent);
 }
 
+.atlas[data-genus='stratus'] .atlas-card .atlas-photo {
+  object-position: 42% 65%;
+}
+
 .atlas-gallery .atlas-media {
   display: flex;
+  block-size: var(--photo-height);
+  align-items: center;
   justify-content: center;
   margin-inline: var(--gutter);
 }
@@ -203,7 +209,7 @@ a {
 .atlas-print .atlas-photo {
   inline-size: auto;
   max-inline-size: 100%;
-  max-block-size: 68svh;
+  max-block-size: var(--photo-height);
 }
 
 .atlas-photo-action:focus-visible {
