@@ -4,6 +4,8 @@
 
 Prepare an entry for each of the ten cloud genera. The visual descriptions below are useful when sourcing photographs.
 
+Use the genus name alone in card titles, article titles and the atlas index in both languages. For example, the English title is *Cirrus* and the Ukrainian title is *Перисті*.
+
 | Genus | Common description |
 | --- | --- |
 | Cirrus | High fibrous streaks or wisps |

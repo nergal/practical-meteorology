@@ -1,6 +1,7 @@
 import { App as CapacitorApp } from '@capacitor/app';
 import { Capacitor } from '@capacitor/core';
-import { Fragment, useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { flushSync } from 'react-dom';
+import { Fragment, useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { CSSProperties, KeyboardEvent, MouseEvent, TouchEvent } from 'react';
 import { atlas, type Locale } from './atlas';
 
@@ -108,11 +109,21 @@ export default function App({ locale }: { locale: Locale }) {
     document.title = strings.atlas;
   }, [locale, strings.atlas]);
 
+  const showHistoryPage = useCallback(() => {
+    if (!document.startViewTransition || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setPage(readPage());
+      return;
+    }
+
+    document.startViewTransition(() => {
+      flushSync(() => setPage(readPage()));
+    });
+  }, []);
+
   useEffect(() => {
     window.history.scrollRestoration = 'manual';
     window.history.replaceState(readPage(), '');
-    const restorePage = () => setPage(readPage());
-    window.addEventListener('popstate', restorePage);
+    window.addEventListener('popstate', showHistoryPage);
 
     const listener = Capacitor.isNativePlatform()
       ? CapacitorApp.addListener('backButton', () => {
@@ -122,10 +133,10 @@ export default function App({ locale }: { locale: Locale }) {
       : undefined;
 
     return () => {
-      window.removeEventListener('popstate', restorePage);
+      window.removeEventListener('popstate', showHistoryPage);
       void listener?.then(handle => handle.remove());
     };
-  }, []);
+  }, [showHistoryPage]);
 
   useLayoutEffect(() => {
     if (page.showArticle && article.current) {
@@ -144,13 +155,15 @@ export default function App({ locale }: { locale: Locale }) {
   }
 
   function open(nextView: View, genus: number, frame = 0, showArticle = false) {
+    if (readPage().depth !== page.depth) return;
     window.history.replaceState({ ...page, scroll: window.scrollY, showArticle: false }, '');
     const next = { atlasView: nextView, genus, frame, depth: page.depth + 1, scroll: 0, showArticle };
     window.history.pushState(next, '');
-    setPage(next);
+    showHistoryPage();
   }
 
   function moveBy(step: number) {
+    if (readPage().depth !== page.depth) return;
     const position = card ? page.genus : page.frame;
     const total = card ? entries.length : entry.photos.length;
     const next = position + step;
@@ -248,13 +261,15 @@ export default function App({ locale }: { locale: Locale }) {
   function creditLine() {
     return (
       <p className="atlas-credit-line">
-        {strings.photoBy} {credit.creator} ·{' '}
         <button
           type="button"
           className="atlas-source-button"
+          aria-label={`${strings.photoBy} ${credit.creator} · ${credit.collection}`}
           onClick={() => open('credit', page.genus, page.frame)}
         >
-          {credit.collection}
+          <span>{credit.creator}</span>
+          <span aria-hidden="true"> · </span>
+          <span className="atlas-collection">{credit.collection.includes('NOAA') ? 'NOAA' : credit.collection}</span>
         </button>
       </p>
     );
@@ -262,10 +277,15 @@ export default function App({ locale }: { locale: Locale }) {
 
   function title() {
     return (
-      <h1 className="atlas-heading" tabIndex={-1} ref={heading}>
-        {entry.title}
-        {entry.title !== entry.latin && <span className="atlas-latin" lang="la">{entry.latin}</span>}
-      </h1>
+      <header className="atlas-heading">
+        {!card && (
+          <button type="button" className="atlas-back" aria-label={strings.back} onClick={() => window.history.back()}>
+            {arrow('left')}
+          </button>
+        )}
+        <h1 tabIndex={-1} ref={heading}>{card || detail ? entry.title : strings.credit}</h1>
+        {(card || detail) && entry.title !== entry.latin && <span className="atlas-latin" lang="la">{entry.latin}</span>}
+      </header>
     );
   }
 
@@ -298,13 +318,6 @@ export default function App({ locale }: { locale: Locale }) {
   return (
     <main className="atlas" data-genus={entry.id} data-view={page.atlasView}>
       <div className={`atlas-${page.atlasView}`} {...(card ? swipe : {})}>
-        {!card && (
-          <div className="atlas-tools">
-            <button type="button" className="atlas-back" onClick={() => window.history.back()}>
-              {arrow('left')}{strings.back}
-            </button>
-          </div>
-        )}
         {card ? (
           <>
             <div className="atlas-media">
@@ -322,14 +335,16 @@ export default function App({ locale }: { locale: Locale }) {
             {creditLine()}
             {title()}
             <p className="atlas-description">{entry.description}</p>
-            <button
-              type="button"
-              className="atlas-details-button"
-              onClick={() => open('detail', page.genus)}
-            >
-              {strings.details}
-            </button>
-            {controls(page.genus, entries.length)}
+            <footer className="atlas-card-footer">
+              <button
+                type="button"
+                className="atlas-details-button"
+                onClick={() => open('detail', page.genus)}
+              >
+                {strings.details}
+              </button>
+              {controls(page.genus, entries.length)}
+            </footer>
           </>
         ) : detail ? (
           <>
@@ -364,7 +379,7 @@ export default function App({ locale }: { locale: Locale }) {
           </>
         ) : (
           <>
-            <h1 className="atlas-heading" tabIndex={-1} ref={heading}>{strings.credit}</h1>
+            {title()}
             <dl className="atlas-credit-record">
               <div><dt>{strings.creator}</dt><dd>{credit.creator}</dd></div>
               <div>
