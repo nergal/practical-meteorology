@@ -90,6 +90,9 @@ function arrow(direction: 'left' | 'right') {
 
 export default function App({ locale }: { locale: Locale }) {
   const [page, setPage] = useState<Page>(readPage);
+  const surface = useRef<HTMLElement>(null);
+  const galleryPrint = useRef<HTMLDivElement>(null);
+  const activeMotion = useRef<Animation | undefined>(undefined);
   const heading = useRef<HTMLHeadingElement>(null);
   const article = useRef<HTMLElement>(null);
   const startTouch = useRef<{ x: number; y: number } | null>(null);
@@ -110,14 +113,22 @@ export default function App({ locale }: { locale: Locale }) {
   }, [locale, strings.atlas]);
 
   const showHistoryPage = useCallback(() => {
-    if (!document.startViewTransition || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    activeMotion.current?.cancel();
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       setPage(readPage());
       return;
     }
 
-    document.startViewTransition(() => {
-      flushSync(() => setPage(readPage()));
-    });
+    const update = () => flushSync(() => setPage(readPage()));
+    if (document.startViewTransition) {
+      document.startViewTransition(update);
+    } else {
+      update();
+      activeMotion.current = surface.current?.firstElementChild?.animate(
+        [{ opacity: 0 }, { opacity: 1 }],
+        { duration: 280, easing: 'ease-out' },
+      );
+    }
   }, []);
 
   useEffect(() => {
@@ -149,11 +160,6 @@ export default function App({ locale }: { locale: Locale }) {
     initialRender.current = false;
   }, [page.atlasView, page.depth]);
 
-  function replacePage(next: Page) {
-    window.history.replaceState(next, '');
-    setPage(next);
-  }
-
   function open(nextView: View, genus: number, frame = 0, showArticle = false) {
     if (readPage().depth !== page.depth) return;
     window.history.replaceState({ ...page, scroll: window.scrollY, showArticle: false }, '');
@@ -169,12 +175,23 @@ export default function App({ locale }: { locale: Locale }) {
     const next = position + step;
 
     if (next < 0 || next >= total) return;
-    if (card) {
-      replacePage({ ...page, genus: next, frame: 0, scroll: 0 });
-      window.scrollTo(0, 0);
-    } else {
-      replacePage({ ...page, frame: next, scroll: window.scrollY });
-    }
+    const destination = card
+      ? { ...page, genus: next, frame: 0, scroll: 0 }
+      : { ...page, frame: next, scroll: window.scrollY };
+    window.history.replaceState(destination, '');
+    activeMotion.current?.cancel();
+    flushSync(() => setPage(destination));
+    if (card) window.scrollTo(0, 0);
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const target = card ? surface.current?.firstElementChild : galleryPrint.current;
+    activeMotion.current = target?.animate(
+      [
+        { transform: `translateX(${step * 22}%)`, opacity: 0.4 },
+        { transform: 'translateX(0)', opacity: 1 },
+      ],
+      { duration: 280, easing: 'cubic-bezier(0.2, 0.65, 0.25, 1)' },
+    );
   }
 
   function handleKey(event: KeyboardEvent<HTMLElement>) {
@@ -316,7 +333,7 @@ export default function App({ locale }: { locale: Locale }) {
   }
 
   return (
-    <main className="atlas" data-genus={entry.id} data-view={page.atlasView}>
+    <main ref={surface} className="atlas" data-genus={entry.id} data-view={page.atlasView}>
       <div className={`atlas-${page.atlasView}`} {...(card ? swipe : {})}>
         {card ? (
           <>
@@ -351,7 +368,7 @@ export default function App({ locale }: { locale: Locale }) {
             {title()}
             <section className="atlas-gallery" aria-label={strings.gallery} {...swipe}>
               <div className="atlas-media">
-                <div className="atlas-print" style={{ '--photo': `url("${photo.url}")` } as CSSProperties}>
+                <div ref={galleryPrint} className="atlas-print" style={{ '--photo': `url("${photo.url}")` } as CSSProperties}>
                   <img className="atlas-photo" src={photo.url} alt={photo.alt} draggable={false} />
                 </div>
               </div>

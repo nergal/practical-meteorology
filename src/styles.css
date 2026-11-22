@@ -108,6 +108,7 @@ a {
   min-block-size: calc(100dvh - var(--viewport-inset));
   margin-inline: auto;
   background: var(--surface);
+  overflow-x: clip;
   overflow-wrap: anywhere;
 }
 
@@ -226,6 +227,7 @@ a {
 
 .atlas-credit-line {
   min-inline-size: 0;
+  margin-inline: var(--gutter);
   margin-block-start: 0.5rem;
   color: #626262;
   font: 400 0.8125rem/1.5 var(--control-font);
@@ -354,7 +356,7 @@ a {
 }
 
 .atlas-detail, .atlas-credit {
-  padding-block: var(--safe-start) calc(2.5rem + var(--safe-end));
+  padding-block: calc(var(--safe-start) + 0.75rem) calc(2.5rem + var(--safe-end));
 }
 
 .atlas-detail .atlas-heading, .atlas-credit .atlas-heading {
@@ -363,7 +365,7 @@ a {
   align-items: center;
   column-gap: 0.25rem;
   container-type: inline-size;
-  margin: 0.75rem var(--gutter) 1.5rem max(0px, calc(var(--gutter) - 12px));
+  margin: 0 var(--gutter) 1.5rem max(0px, calc(var(--gutter) - 12px));
 }
 
 .atlas-back {
@@ -454,7 +456,7 @@ a {
 }
 
 @media (min-width: 37rem) {
-  .atlas {
+  .atlas[data-view='card'] {
     --viewport-inset: 2rem;
     margin-block: 1rem;
   }
@@ -528,7 +530,7 @@ a {
 ::view-transition-group(root),
 ::view-transition-old(root),
 ::view-transition-new(root) {
-  animation-duration: 180ms;
+  animation-duration: 280ms;
   animation-timing-function: ease-in-out;
 }
 
