@@ -1,0 +1,79 @@
+name: Publish Android APK
+
+on:
+  push:
+    branches: [main]
+
+permissions: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: gradle
+
+      - name: Install Android SDK packages
+        run: |
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" \
+            'platforms;android-35' 'build-tools;34.0.0' 'build-tools;35.0.0'
+
+      - run: npm ci
+      - run: npm run android:apk
+
+      - name: Verify APK signature and alignment
+        run: |
+          cp android/app/build/outputs/apk/debug/app-debug.apk cloud-atlas-debug.apk
+          tools="$ANDROID_HOME/build-tools/35.0.0"
+          "$tools/apksigner" verify --verbose cloud-atlas-debug.apk
+          "$tools/zipalign" -c -P 16 4 cloud-atlas-debug.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android-apk
+          path: cloud-atlas-debug.apk
+          if-no-files-found: error
+          overwrite: true
+          compression-level: 0
+
+  publish:
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: android-apk
+
+      - name: Publish APK to GitHub Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          tag="main-${GITHUB_RUN_ID}"
+          if draft=$(gh release view "$tag" --json isDraft --jq '.isDraft'); then
+            if [[ "$draft" == false ]]; then
+              exit 0
+            fi
+          else
+            gh release create "$tag" --draft --target "$GITHUB_SHA" \
+              --title "Cloud Atlas · main build #${GITHUB_RUN_NUMBER}" \
+              --notes "Android debug APK built from commit ${GITHUB_SHA}."
+          fi
+          gh release upload "$tag" cloud-atlas-debug.apk --clobber
+          gh release edit "$tag" --draft=false

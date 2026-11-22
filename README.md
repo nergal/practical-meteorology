@@ -21,6 +21,10 @@ For the Android build, install JDK 21, Android SDK Platform 35 and Build Tools 3
 
 For a first-launch check on a device, install the APK, turn on airplane mode and open it. Open a genus, browse to frame two, read its credits and return to the same frame. Change the device language between Ukrainian and English in system settings and repeat using a genus you have never opened.
 
+### Download an APK
+
+Every push to `main` triggers an Android build. After the APK passes signature and alignment checks, GitHub Actions publishes `cloud-atlas-debug.apk` under [Releases](https://github.com/nergal/practical-meteorology/releases). Each release points to the commit it was built from. Each fresh runner signs the APK with its own debug key, so installing a newer build over an existing one may require uninstalling the previous build first.
+
 ## Specification-driven development
 
 The project uses GitHub Spec Kit 1.4.3 with Codex. To install the matching CLI, run `uv tool install specify-cli==1.4.3`. Open Codex in the repository root to use the checked-in skills. The [constitution](.specify/memory/constitution.md) records the project principles. Use `$speckit-specify` for the field experience, review the specification with the project owner, then use `$speckit-plan` and `$speckit-tasks` for implementation planning.
