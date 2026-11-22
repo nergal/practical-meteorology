@@ -20,7 +20,6 @@ const firstPage: Page = { atlasView: 'card', genus: 0, frame: 0, depth: 0, scrol
 const copy = {
   uk: {
     atlas: 'Атлас хмар',
-    language: 'Мова',
     back: 'Назад',
     details: 'Докладніше',
     previousCloud: 'Попередній рід хмар',
@@ -43,7 +42,6 @@ const copy = {
   },
   en: {
     atlas: 'Cloud atlas',
-    language: 'Language',
     back: 'Back',
     details: 'Details',
     previousCloud: 'Previous cloud genus',
@@ -65,14 +63,6 @@ const copy = {
     photoPosition: (position: number, total: number) => `Photo ${position} of ${total}`,
   },
 };
-
-function savedLocale(): Locale {
-  try {
-    return localStorage.getItem('atlas-language') === 'en' ? 'en' : 'uk';
-  } catch {
-    return 'uk';
-  }
-}
 
 function readPage(): Page {
   const candidate = window.history.state as Page | null;
@@ -97,8 +87,7 @@ function arrow(direction: 'left' | 'right') {
   );
 }
 
-export default function App() {
-  const [locale, setLocale] = useState<Locale>(savedLocale);
+export default function App({ locale }: { locale: Locale }) {
   const [page, setPage] = useState<Page>(readPage);
   const heading = useRef<HTMLHeadingElement>(null);
   const article = useRef<HTMLElement>(null);
@@ -117,11 +106,6 @@ export default function App() {
   useEffect(() => {
     document.documentElement.lang = locale;
     document.title = strings.atlas;
-    try {
-      localStorage.setItem('atlas-language', locale);
-    } catch {
-      // The current language still applies when storage is unavailable.
-    }
   }, [locale, strings.atlas]);
 
   useEffect(() => {
@@ -182,7 +166,6 @@ export default function App() {
 
   function handleKey(event: KeyboardEvent<HTMLElement>) {
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
-    if ((event.target as HTMLElement).tagName === 'SELECT') return;
     if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
       event.preventDefault();
       moveBy(event.key === 'ArrowLeft' ? -1 : 1);
@@ -312,18 +295,6 @@ export default function App() {
     });
   }
 
-  const languagePicker = (
-    <select
-      className="atlas-language"
-      aria-label={strings.language}
-      value={locale}
-      onChange={event => setLocale(event.target.value as Locale)}
-    >
-      <option value="uk" lang="uk">Українська</option>
-      <option value="en" lang="en">English</option>
-    </select>
-  );
-
   return (
     <main className="atlas" data-genus={entry.id} data-view={page.atlasView}>
       <div className={`atlas-${page.atlasView}`} {...(card ? swipe : {})}>
@@ -332,7 +303,6 @@ export default function App() {
             <button type="button" className="atlas-back" onClick={() => window.history.back()}>
               {arrow('left')}{strings.back}
             </button>
-            {languagePicker}
           </div>
         )}
         {card ? (
@@ -352,16 +322,13 @@ export default function App() {
             {creditLine()}
             {title()}
             <p className="atlas-description">{entry.description}</p>
-            <div className="atlas-card-actions">
-              <button
-                type="button"
-                className="atlas-details-button"
-                onClick={() => open('detail', page.genus)}
-              >
-                {strings.details}
-              </button>
-              {languagePicker}
-            </div>
+            <button
+              type="button"
+              className="atlas-details-button"
+              onClick={() => open('detail', page.genus)}
+            >
+              {strings.details}
+            </button>
             {controls(page.genus, entries.length)}
           </>
         ) : detail ? (

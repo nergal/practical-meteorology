@@ -35,10 +35,10 @@
 
 **Goal** Read the selected article and follow a related entry in either language.
 
-**Independent check** Scroll from over the gallery to the article, follow a related link, and return. Switch languages and verify the article, captions and navigation are localized with the current selection preserved.
+**Independent check** Scroll from over the gallery to the article, follow a related link, and return. Change the device language and verify the article, captions and navigation are localized with the current selection preserved.
 
 - [x] T010 [US3] Render the localized article below the gallery and navigate related entries by active locale and stable slug in `src/App.tsx` and `src/atlas.ts`.
-- [x] T011 [US3] Provide Ukrainian and English navigation and article text, persist the language locally and preserve the current selection when switching in `src/App.tsx`.
+- [x] T011 [US3] Provide Ukrainian and English navigation and article text, follow the system language and preserve the current selection when it changes in `src/App.tsx`.
 
 ## Phase 6 — Release verification
 

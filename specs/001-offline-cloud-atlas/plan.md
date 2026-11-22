@@ -12,7 +12,7 @@ Build a bilingual React application that starts with a cloud photograph and lead
 | --- | --- |
 | Language and tooling | TypeScript, React 19, Vite and Node.js/npm |
 | Android | Capacitor 7, Android SDK API 35 and JDK 21 (minimum Android API 23), with the Gradle wrapper generated for the Android project |
-| Storage | Bundled Markdown, JPEG assets, font files and attribution data. Store the language preference locally. Keep navigation state in the app. |
+| Storage | Bundled Markdown, JPEG assets, font files and attribution data. Read the preferred languages from the device. Keep navigation state in the app. |
 | Verification | TypeScript and production Vite build, bundle inventory, mobile interaction checks and native fresh-install acceptance |
 | Target | Android APK. The shared React app can be previewed in a browser during development. |
 | Scale | Ten genera, three photographs per genus and ten entries per language |

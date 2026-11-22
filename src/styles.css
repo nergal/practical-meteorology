@@ -138,39 +138,12 @@ a {
   font: 600 1rem/1.25 var(--control-font);
 }
 
-.atlas-card-actions {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: auto var(--gutter) 0;
-  font: 600 1rem/1.25 var(--control-font);
-}
-
-.atlas-card-actions .atlas-details-button {
-  margin: 0;
-}
-
-.atlas-back, .atlas-language, .atlas-arrow {
+.atlas-back, .atlas-arrow {
   display: inline-flex;
   min-inline-size: 2.75rem;
   min-block-size: 2.75rem;
   align-items: center;
   justify-content: center;
-}
-
-.atlas-language {
-  padding-inline: 0.75rem;
-  border: 0;
-  color: var(--ink);
-  background: transparent;
-  font: inherit;
-  cursor: pointer;
-}
-
-.atlas-card .atlas-language {
-  background: transparent;
-  color: var(--ink);
 }
 
 .atlas-media {
@@ -254,7 +227,7 @@ a {
   align-self: flex-start;
   gap: 1.375rem;
   min-block-size: 2.75rem;
-  margin-block-start: auto;
+  margin: auto var(--gutter) 0;
   padding-block: 0.45rem;
   font: 600 1.0625rem/1.35 var(--control-font);
   text-align: start;

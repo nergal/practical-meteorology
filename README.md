@@ -19,7 +19,7 @@ Install Node.js 22.12 or later and run `npm ci`. Use `npm run dev` for local bro
 
 For the Android build, install JDK 21, Android SDK Platform 35 and Build Tools 34.0.0 and 35.0.0. Configure `ANDROID_HOME` for your SDK and `JAVA_HOME` for your JDK. Run `npm run android:apk` to build the web application, sync its bundled assets into Android and assemble a debug-signed APK at `android/app/build/outputs/apk/debug/app-debug.apk`. Dependency downloads require connectivity on the build machine. The installed app bundles its own content and fonts.
 
-For a first-launch check on a device, install the APK, turn on airplane mode and open it. Open a genus, browse to frame two, read its credits and return to the same frame. Switch between Ukrainian and English and repeat using a genus you have never opened.
+For a first-launch check on a device, install the APK, turn on airplane mode and open it. Open a genus, browse to frame two, read its credits and return to the same frame. Change the device language between Ukrainian and English in system settings and repeat using a genus you have never opened.
 
 ## Specification-driven development
 

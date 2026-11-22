@@ -42,7 +42,7 @@ sea, while their attribution records and the full atlas remain readable.
 
 - FR-01. Offer a complete field experience from first launch without connectivity, sign-in or permissions for observation.
 - FR-02. Support the card, gallery, credit and return paths in stories 1 and 2, including visible alternatives to swipes.
-- FR-03. Present all approved articles, related entries, photographs and captions in their editorial order in both languages.
+- FR-03. Present all approved articles, related entries, photographs and captions in their editorial order in both languages. Use the first supported language in the device’s ordered preferences (Ukrainian or English), with English as the fallback. The atlas has no language selector.
 - FR-04. Present the source, creator, rights and modifications for the active photograph. Keep credit actions distinct from opening the card.
 - FR-05. Preserve the [approved visual design](../../DESIGN.md) and [mockup](../../docs/design/atlas-typography-uk.png): a toolbar-free, borderless view, one pastel background per genus, natural photo edges and separate typographic roles for reading and controls.
 - FR-06. Deliver the Android release as an installable APK for distribution by the owner.

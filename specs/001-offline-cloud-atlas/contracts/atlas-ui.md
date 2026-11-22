@@ -10,6 +10,6 @@
 | Details | Scroll vertically, including from over the gallery | Scroll to the article and related entries. |
 | Details | Follow a related genus | Open the target genus article in the current language. |
 | Credit or details | Use back | Restore the originating view and selection. |
-| Atlas | Switch language | Update visible text and captions. Preserve the genus and, when applicable, the frame. |
+| Atlas | Change the device’s preferred languages | Update visible text and captions. Preserve the genus and, when applicable, the frame. |
 
 At either sequence boundary, the position and displayed values remain in agreement. Long credits wrap, and spacing before the card heading starts below the last credit line. All first-party actions in this contract are available without a network connection.

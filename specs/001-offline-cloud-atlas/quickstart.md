@@ -23,7 +23,7 @@ adb install android/app/build/outputs/apk/debug/app-debug.apk
 3. Open a card via its image, details action and downward swipe. Verify that the first gallery photograph matches the card each time.
 4. On each of the ten detail views, page through all three photographs. Check that each active caption, position and credit corresponds to the frame. Open each bundled credit and verify return to the same frame. Verify return to the originating card.
 5. Begin a vertical scroll over a gallery and reach the article. Open a related genus, verify that its article opens in the active language and return to the originating article.
-6. In both Ukrainian and English, visit all ten articles and check all localized captions. Increase text size and check long credit lines, wrapped headings and controls.
+6. Set the device’s preferred languages in system settings. Check Ukrainian and English, and verify that English is used when neither is listed. In both supported languages, visit all ten articles and check all localized captions. Increase text size and check long credit lines, wrapped headings and controls.
 7. Record the device, Android version, APK identity and observed result. Record the beginner field-learning exercise separately from package acceptance.
 
 The [interface contract](contracts/atlas-ui.md) covers the expected control behavior. `npm run dev` opens the browser preview for development.
