@@ -1,0 +1,395 @@
+@font-face {
+  font-family: 'Spectral';
+  src: url('/fonts/spectral-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spectral';
+  src: url('/fonts/spectral-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  src: url('/fonts/pt-serif-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  src: url('/fonts/pt-serif-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  src: url('/fonts/pt-serif-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('/fonts/source-sans-3.ttf') format('truetype');
+  font-weight: 200 900;
+  font-display: swap;
+}
+
+:root {
+  --ink: #13323c;
+  --slate: #27474d;
+  --paper: #f8f7f2;
+  --heading-font: 'Spectral', Georgia, serif;
+  --reading-font: 'PT Serif', Georgia, serif;
+  --control-font: 'Source Sans 3', system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--reading-font);
+  color-scheme: light;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, figure, dl {
+  margin: 0;
+}
+
+body {
+  min-width: 0;
+}
+
+button, a {
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-underline-offset: 0.24em;
+  text-decoration-thickness: 1px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--slate);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: var(--paper);
+  background: var(--slate);
+}
+
+.atlas {
+  --surface: #e9edf0;
+  --gutter: clamp(1.125rem, 6.7vw, 2rem);
+  --safe-start: env(safe-area-inset-top, 0px);
+  --safe-end: env(safe-area-inset-bottom, 0px);
+  position: relative;
+  max-inline-size: 36rem;
+  min-block-size: 100vh;
+  min-block-size: 100dvh;
+  margin-inline: auto;
+  background: var(--surface);
+  overflow-wrap: anywhere;
+}
+
+.atlas[data-genus='cirrus'] { --surface: #e7edf5; }
+.atlas[data-genus='cirrocumulus'] { --surface: #e9edf8; }
+.atlas[data-genus='cirrostratus'] { --surface: #eae5f1; }
+.atlas[data-genus='altocumulus'] { --surface: #e5eaf6; }
+.atlas[data-genus='altostratus'] { --surface: #e8e5f2; }
+.atlas[data-genus='nimbostratus'] { --surface: #e1e8ef; }
+.atlas[data-genus='stratocumulus'] { --surface: #dfece6; }
+.atlas[data-genus='stratus'] { --surface: #e8ebe7; }
+.atlas[data-genus='cumulus'] { --surface: #def0ec; }
+.atlas[data-genus='cumulonimbus'] { --surface: #eedfdf; }
+
+.atlas-card, .atlas-detail, .atlas-credit {
+  min-block-size: inherit;
+}
+
+.atlas-card {
+  display: flex;
+  flex-direction: column;
+  padding-block-start: var(--safe-start);
+  touch-action: pan-y pinch-zoom;
+}
+
+.atlas-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font: 600 1rem/1.25 var(--control-font);
+}
+
+.atlas-card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto var(--gutter) 0;
+  font: 600 1rem/1.25 var(--control-font);
+}
+
+.atlas-card-actions .atlas-details-button {
+  margin: 0;
+}
+
+.atlas-back, .atlas-language, .atlas-arrow {
+  display: inline-flex;
+  min-inline-size: 2.75rem;
+  min-block-size: 2.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.atlas-language {
+  padding-inline: 0.75rem;
+  border: 0;
+  color: var(--ink);
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.atlas-card .atlas-language {
+  background: transparent;
+  color: var(--ink);
+}
+
+.atlas-media {
+  margin: 0;
+}
+
+.atlas-card .atlas-media {
+  touch-action: pinch-zoom;
+}
+
+.atlas-gallery {
+  touch-action: pan-y pinch-zoom;
+}
+
+.atlas-photo-action, .atlas-photo {
+  display: block;
+  inline-size: 100%;
+}
+
+.atlas-photo {
+  block-size: auto;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.atlas-card .atlas-photo {
+  max-block-size: 46vh;
+  object-fit: contain;
+}
+
+.atlas-photo-action:focus-visible {
+  outline-offset: -4px;
+  outline-color: var(--surface);
+}
+
+.atlas-card .atlas-credit-line,
+.atlas-card .atlas-heading,
+.atlas-card .atlas-description {
+  margin-inline: var(--gutter);
+}
+
+.atlas-credit-line {
+  color: var(--slate);
+  font: 400 1rem/1.4 var(--control-font);
+}
+
+.atlas-card .atlas-credit-line {
+  margin-block-start: 0.5rem;
+}
+
+.atlas-source-button {
+  display: inline;
+  text-decoration: underline;
+  text-underline-offset: 0.24em;
+  text-decoration-thickness: 1px;
+}
+
+.atlas-heading h1, h1.atlas-heading {
+  font: 400 clamp(1.95rem, 9vw, 2.75rem)/1.02 var(--heading-font);
+  letter-spacing: -0.018em;
+}
+
+.atlas-card .atlas-heading {
+  margin-block-start: 2.5rem;
+}
+
+.atlas-latin {
+  display: block;
+  margin-block-start: 0.75rem;
+  font: italic 400 1.25rem/1.25 var(--heading-font);
+}
+
+.atlas-description {
+  margin-block-start: 1.5rem;
+  font: 400 1.125rem/1.5 var(--reading-font);
+}
+
+.atlas-details-button {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 1.375rem;
+  min-block-size: 2.75rem;
+  margin-block-start: auto;
+  padding-block: 0.45rem;
+  font: 600 1.0625rem/1.35 var(--control-font);
+  text-align: start;
+}
+
+.atlas-details-button::after {
+  inline-size: 0.55em;
+  aspect-ratio: 1;
+  flex: none;
+  border: solid currentColor;
+  border-width: 0 1.5px 1.5px 0;
+  transform: translateY(-20%) rotate(45deg);
+  content: '';
+}
+
+.atlas-card .atlas-description {
+  margin-block-end: 1.75rem;
+}
+
+.atlas-controls {
+  display: flex;
+  align-items: center;
+  min-block-size: 2.75rem;
+  color: var(--ink);
+  font-family: var(--control-font);
+}
+
+.atlas-card .atlas-controls {
+  justify-content: space-between;
+  margin-inline: max(0px, calc(var(--gutter) - 0.6875rem));
+  padding-block: 2.75rem calc(1.25rem + var(--safe-end));
+}
+
+.atlas-counter {
+  color: var(--slate);
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.atlas-arrow:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.atlas-detail, .atlas-credit {
+  padding-block: var(--safe-start) calc(2.5rem + var(--safe-end));
+}
+
+.atlas-detail .atlas-tools, .atlas-credit .atlas-tools {
+  justify-content: space-between;
+  margin-inline: max(0px, calc(var(--gutter) - 0.6875rem));
+}
+
+.atlas-detail .atlas-heading, .atlas-credit .atlas-heading {
+  margin: 0.125rem var(--gutter) 1.5rem;
+}
+
+.atlas-detail .atlas-controls {
+  margin: 0.875rem var(--gutter) 0.5rem;
+}
+
+.atlas-detail .atlas-counter {
+  order: -1;
+  margin-inline-end: auto;
+  text-align: start;
+}
+
+.atlas-caption, .atlas-detail .atlas-credit-line {
+  margin-inline: var(--gutter);
+}
+
+.atlas-caption {
+  font: 400 1rem/1.5 var(--reading-font);
+}
+
+.atlas-detail .atlas-credit-line {
+  margin-block-start: 0.5rem;
+}
+
+.atlas-article, .atlas-credit-record {
+  margin: 2rem var(--gutter) 0;
+}
+
+.atlas-article {
+  font: 400 1.125rem/1.5 var(--reading-font);
+}
+
+.atlas-section + .atlas-section {
+  margin-block-start: 2rem;
+}
+
+.atlas-section h2, .atlas-section h3 {
+  margin-block-end: 0.75rem;
+  font: 400 1.875rem/1.15 var(--heading-font);
+}
+
+.atlas-section p + p {
+  margin-block-start: 0.875rem;
+}
+
+.atlas-references {
+  margin-block-start: 2rem;
+  padding-inline-start: 1em;
+  font: 400 1rem/1.5 var(--control-font);
+}
+
+.atlas-credit-record {
+  color: var(--slate);
+  font: 400 1rem/1.5 var(--control-font);
+}
+
+.atlas-credit-record dt {
+  margin-block-start: 1rem;
+  font-weight: 600;
+}
+
+.atlas-credit-record dd {
+  margin-inline-start: 0;
+}
+
+.atlas-visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (min-width: 37rem) {
+  .atlas {
+    min-block-size: calc(100dvh - 2rem);
+    margin-block: 1rem;
+  }
+}

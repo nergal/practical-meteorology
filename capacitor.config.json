@@ -1,0 +1,8 @@
+{
+  "appId": "app.practicalmeteorology.atlas",
+  "appName": "Practical Meteorology",
+  "webDir": "dist",
+  "android": {
+    "adjustMarginsForEdgeToEdge": "auto"
+  }
+}
