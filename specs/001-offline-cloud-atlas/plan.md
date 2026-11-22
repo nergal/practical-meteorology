@@ -11,14 +11,14 @@ Build a bilingual React application that starts with a cloud photograph and lead
 | Area | Decision |
 | --- | --- |
 | Language and tooling | TypeScript, React 19, Vite and Node.js/npm |
-| Android | Capacitor 7, Android SDK API 35 and JDK 21 (minimum Android API 23), with the Gradle wrapper generated for the Android project |
+| Android | Capacitor 7, the Android SDK platform configured in `android/variables.gradle` and JDK 21 (minimum Android API 23), with the Gradle wrapper generated for the Android project |
 | Storage | Bundled Markdown, JPEG assets, font files and attribution data. Read the preferred languages from the device. Keep navigation state in the app. |
 | Verification | TypeScript and production Vite build, bundle inventory, mobile interaction checks and native fresh-install acceptance |
 | Target | Android APK. The shared React app can be previewed in a browser during development. |
 | Scale | Ten genera, three photographs per genus and ten entries per language |
 | Constraints | First launch with radios disabled, readable controls and typography, complete bundled credits, and explicit gestures and controls |
 
-## Constitution check
+## Applying the project principles
 
 | Principle | Implementation and review |
 | --- | --- |
@@ -28,7 +28,7 @@ Build a bilingual React application that starts with a cloud photograph and lead
 | IV. Documented photographs | Load only the approved collection and include its source, rights and modifications in local credit records. |
 | V. English repository | Keep engineering files and identifiers in English. Localize all reader-facing material to Ukrainian and English. |
 
-The Phase 1 data model and interface contract preserve these requirements. The [quickstart](quickstart.md) defines the acceptance walkthrough.
+The [project principles](../../docs/project-principles.md) explain these requirements. The [quickstart](quickstart.md) defines the acceptance walkthrough.
 
 ## Project structure
 
@@ -40,12 +40,11 @@ The Phase 1 data model and interface contract preserve these requirements. The [
 | `docs/photo-selection/` | Approved JPEGs and their editorial attribution records |
 | `package.json`, `package-lock.json`, `tsconfig.json`, `vite.config.mjs` | Type checking, development and production build |
 | `capacitor.config.json`, `android/` | Native WebView shell and APK build |
-| `specs/001-offline-cloud-atlas/` | Specification, plan, decisions, data model, interface contract, acceptance and tasks |
+| `specs/001-offline-cloud-atlas/` | Specification, plan, decisions, data model, interface contract and acceptance checks |
 
 Use a single client project and a native Android shell. Local source files are build inputs for a self-contained `dist/` directory.
 
-## Phases
+## Supporting documents
 
-1. Resolve bundling, gestures, state and distribution decisions in [research](research.md).
-2. Define the [data model](data-model.md), [atlas interface](contracts/atlas-ui.md) and [validation guide](quickstart.md).
-3. Implement and verify the dependency-ordered [tasks](tasks.md).
+- [Technical decisions](research.md) explain the bundling, navigation and distribution choices.
+- The [data model](data-model.md) and [atlas interface](contracts/atlas-ui.md) define the content and interaction behavior.

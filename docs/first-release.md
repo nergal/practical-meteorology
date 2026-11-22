@@ -19,10 +19,10 @@ The MVP supports Ukrainian and English throughout the reader experience. Both ed
 - Starting with a fresh installation and connectivity disabled, a reader can open the atlas, browse every photograph, read its caption, open every article and navigate between related entries. All required content ships with the build.
 - Each entry meets the [editorial guide](atlas-editorial-guide.md). Every photograph has a checked identification and documented permission for offline redistribution.
 - Recognition and reading work without an account, automated identification or a live forecasting service. AI and a backend are unnecessary for the agreed experience.
-- The implementation deliverable is a built APK. Deployment and distribution belong to the project owner.
+- The project owner triggers Google Play production submissions by pushing a version tag. After initial inclusion in the official F-Droid catalog, the same stable tags identify source releases for F-Droid to build and sign. Main branch builds provide APKs for testing.
 
 ## Deferred work and decisions
 
 Photo-sequence lessons, self-assessment and the observation journal are deferred. The article text still teaches changes over time. Mountain-specific forecasting and the broader encyclopedia topics fall outside the initial setting.
 
-The working stack is Capacitor, React and TypeScript. Android is the first delivery platform, with iOS planned. Detailed architecture belongs in the Spec Kit implementation plan.
+The working stack is Capacitor, React and TypeScript. Android is the first delivery platform, with iOS planned. The [implementation plan](../specs/001-offline-cloud-atlas/plan.md) records how the atlas packages its content and supports offline use.

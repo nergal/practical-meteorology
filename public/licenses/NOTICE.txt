@@ -1,0 +1,21 @@
+Practical Meteorology (Cloud Atlas)
+https://github.com/nergal/practical-meteorology
+
+Original application code is licensed under the MIT License (MIT.txt).
+
+Original atlas articles in English and Ukrainian, including the original
+descriptions and captions, are by the Practical Meteorology contributors
+and are licensed under Creative Commons Attribution 4.0 International.
+When sharing or adapting them, credit the contributors, link to the source
+and license, and indicate changes. See CC-BY-4.0.txt.
+https://creativecommons.org/licenses/by/4.0/
+
+The project's cloud launcher icon, including its adaptive and legacy
+renditions, is dedicated to the public domain under CC0 1.0 Universal.
+Attribution is optional. See CC0-1.0.txt.
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Each photograph retains its own credit and terms. Open the photo credit in
+the atlas or see the corresponding entry under docs/photo-selection in the
+source repository. Font licenses and copyright notices accompany the font
+files under fonts/. Third-party software retains its own license.

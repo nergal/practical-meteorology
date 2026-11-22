@@ -1,0 +1,43 @@
+Categories:
+  - Weather
+License: MIT
+SourceCode: @SOURCE@
+IssueTracker: @SOURCE@/issues
+
+AutoName: Cloud Atlas
+
+RepoType: git
+Repo: @SOURCE@.git
+
+Builds:
+  - versionName: @VERSION@
+    versionCode: @CODE@
+    commit: @COMMIT@
+    subdir: android/app
+    sudo:
+      - echo 'deb https://deb.debian.org/debian forky main' > /etc/apt/sources.list.d/forky.list
+      - apt-get update
+      - apt-get install -y -t forky nodejs npm openjdk-21-jdk-headless
+    gradle:
+      - yes
+    rm:
+      - android/gradle/wrapper/gradle-wrapper.jar
+    prebuild:
+      - cd ../..
+      - npm ci --ignore-scripts --no-audit --no-fund
+      - npm run android:sync
+      - mv node_modules fdroid-build-deps
+      - mkdir -p node_modules/@capacitor/android node_modules/@capacitor/app
+      - mv fdroid-build-deps/@capacitor/android/capacitor node_modules/@capacitor/android/
+      - mv fdroid-build-deps/@capacitor/app/android node_modules/@capacitor/app/
+      - rm -rf fdroid-build-deps
+      - sed -i '/com.google.gms:google-services/d' android/build.gradle
+      - sed -i '/com\.google\.gms\.google-services/d' android/app/build.gradle
+      - printf '\norg.gradle.java.home=/usr/lib/jvm/java-21-openjdk-amd64\nplayVersionName=%s\nplayVersionCode=%s\n'
+        '$$VERSION$$' '$$VERCODE$$' >> android/gradle.properties
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags ^fdroid-v[0-9]+\.[0-9]+\.[0-9]+-[0-9]+$
+UpdateCheckData: '|-([0-9]+)$||^fdroid-v([0-9]+\.[0-9]+\.[0-9]+)-'
+CurrentVersion: @VERSION@
+CurrentVersionCode: @CODE@

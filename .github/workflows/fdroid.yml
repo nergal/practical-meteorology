@@ -1,0 +1,41 @@
+name: Prepare official F-Droid release
+
+on:
+  push:
+    tags: ['v[0-9]*.[0-9]*.[0-9]*']
+
+permissions: {}
+
+jobs:
+  metadata:
+    if: github.event.created && !github.event.deleted && github.event.repository.visibility == 'public'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - name: Read release version
+        id: version
+        run: bash scripts/release-version.sh "$GITHUB_REF_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare catalog recipe
+        env:
+          VERSION: ${{ steps.version.outputs.name }}
+          CODE: ${{ steps.version.outputs.code }}
+        run: |
+          commit=$(git rev-parse 'HEAD^{commit}')
+          sed -e "s/@VERSION@/$VERSION/g" -e "s/@CODE@/$CODE/g" \
+              -e "s/@COMMIT@/$commit/g" -e "s|@SOURCE@|$GITHUB_SERVER_URL/$GITHUB_REPOSITORY|g" \
+              distribution/fdroid/app.practicalmeteorology.atlas.yml.in > app.practicalmeteorology.atlas.yml
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: fdroid-metadata-${{ github.ref_name }}
+          path: app.practicalmeteorology.atlas.yml
+          if-no-files-found: error
+          overwrite: true
+
+      - name: Mark the same commit for F-Droid update checks
+        env:
+          CODE: ${{ steps.version.outputs.code }}
+        run: git push origin "HEAD:refs/tags/fdroid-$GITHUB_REF_NAME-$CODE"

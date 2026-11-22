@@ -1,0 +1,103 @@
+name: Release to Google Play
+
+on:
+  push:
+    tags: ['v[0-9]*.[0-9]*.[0-9]*']
+
+permissions: {}
+
+jobs:
+  bundle:
+    if: github.event.created && !github.event.deleted
+    runs-on: ubuntu-24.04
+    environment: google-play
+    permissions:
+      contents: read
+    outputs:
+      code: ${{ steps.version.outputs.code }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Read release version
+        id: version
+        run: bash scripts/release-version.sh "$GITHUB_REF_NAME" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Install Android SDK
+        run: |
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" \
+            'platforms;android-36' 'build-tools;35.0.0'
+      - run: npm ci
+      - run: npm run android:sync
+      - name: Build release bundle
+        working-directory: android
+        env:
+          ORG_GRADLE_PROJECT_playVersionName: ${{ steps.version.outputs.name }}
+          ORG_GRADLE_PROJECT_playVersionCode: ${{ steps.version.outputs.code }}
+        run: ./gradlew bundleRelease
+
+      - name: Sign with the Play upload key
+        env:
+          KEYSTORE_BASE64: ${{ secrets.PLAY_UPLOAD_KEYSTORE_BASE64 }}
+          STORE_PASSWORD: ${{ secrets.PLAY_UPLOAD_STORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.PLAY_UPLOAD_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.PLAY_UPLOAD_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          umask 077
+          keystore=$(mktemp "$RUNNER_TEMP/play-upload.XXXXXXXX")
+          trap 'rm -f "$keystore"' EXIT
+          printf '%s' "${KEYSTORE_BASE64:?Missing upload keystore}" | base64 --decode > "$keystore"
+          jarsigner -keystore "$keystore" -storepass:env STORE_PASSWORD -keypass:env KEY_PASSWORD \
+            -signedjar cloud-atlas.aab android/app/build/outputs/bundle/release/app-release.aab "${KEY_ALIAS:?}"
+          jarsigner -verify -strict -keystore "$keystore" -storepass:env STORE_PASSWORD cloud-atlas.aab "$KEY_ALIAS"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: cloud-atlas-${{ github.ref_name }}
+          path: cloud-atlas.aab
+          if-no-files-found: error
+          compression-level: 0
+          overwrite: true
+
+  publish:
+    needs: bundle
+    runs-on: ubuntu-24.04
+    environment: google-play
+    concurrency:
+      group: google-play-production
+      queue: max
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v8
+        with:
+          name: cloud-atlas-${{ github.ref_name }}
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: Get a short-lived Google Play access token
+        id: auth
+        uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093 # v3
+        with:
+          workload_identity_provider: ${{ vars.PLAY_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.PLAY_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/androidpublisher
+          create_credentials_file: false
+      - name: Submit production release for review
+        env:
+          PLAY_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          PLAY_VERSION_CODE: ${{ needs.bundle.outputs.code }}
+        run: node scripts/publish-google-play.mjs

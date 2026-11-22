@@ -136,6 +136,9 @@ export default function atlasContent() {
     configResolved(config) {
       root = config.root
     },
+    generateBundle() {
+      this.emitFile({ type: 'asset', fileName: 'licenses/MIT.txt', source: readFileSync(resolve(root, 'LICENSE')) })
+    },
     resolveId(id) {
       if (id === moduleId) return '\0' + moduleId
     },
