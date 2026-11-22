@@ -23,18 +23,18 @@ The [photo collection](photo-selection/README.md) contains the selected images a
 
 Select a first image whose characteristic feature is easy to see on a phone. Prefer a frame filled by the cloud and sky alone, with a clear view of the identifying feature. Use the other two to show variation in lighting, distance, viewpoint or development while retaining a recognizable feature. Write a caption for each specific frame. When several genera appear together, identify where to look.
 
-## Article coverage
+## Writing for a first-time observer
 
-Start with the view available to someone standing outdoors. A cloud seen from the side can have a clear silhouette while the same cloud overhead may look like a grey patch. Describe the visible edge against the sky or a landmark before naming a base, summit or anvil. Introduce height as a typical distance after the visual description. Explain what cooling does to invisible water vapour before relying on humidity or condensation to explain a change. Write photo captions against the actual frame and give screen-reader users the same visual clues.
+Apply these conventions to new material in both Ukrainian and English. Each article should make sense as the reader’s first entry. Use ordinary words throughout. State the shape directly, for example, “This cloud forms a broad, fairly thin sheet.” Mention a place when it explains a local condition or identifies the source of a tradition. Keep any latitude qualification needed for a height range to be accurate.
 
-- **Visible features.** Describe what the reader can check with their own eyes. Include a useful distinction from a similar-looking cloud where relevant.
-- **Height and physical explanation.** Give typical heights for temperate latitudes, identifying whether a height describes the base, top or occupied layer. Connect the visible shape to a process in plain language.
-- **Possible changes.** Describe plausible developments, including persistence or dissipation when relevant. Identify the next visible sign and link to another atlas entry when it helps the reader compare.
-- **Weather implications.** Explain what the evidence supports about rain or continued dryness, wind and temperature. Use conditional language and an appropriate time horizon. Make clear when the available signs give little basis for an inference.
-- **Other things to notice.** Explain relevant combinations with felt wind, relative temperature or personal barometer readings directly in the article. Mention differences between land and open water when they change the interpretation.
-- **Related phenomena and optional history.** Connect an observable phenomenon, such as a halo, to its physical cause. Include an interesting fact, etymology or historical account when it adds understanding and has a credible source.
+## Article sections, in reading order
 
-Each article may be someone’s first encounter with clouds. Start from an ordinary sight and explain what it consists of, how the water or ice takes that shape, and what that changes for a person underneath. Give one observation the reader can repeat later. When a cloud is a distant sign of approaching rain, explain which cloud may actually deliver the rain.
+1. **What you can see from the ground.** Give a short description the reader can compare with the sky or a photograph. A distant tower can look like a grey patch when it passes overhead. Anchor each clue to the view the reader actually has.
+2. **How the cloud is built.** Describe its shape, typical height and what it contains. Say which part the height refers to. Introduce a useful term immediately after the sight it names, in the same sentence where it reads naturally: “A pale ring appears around the Moon — a *halo*.” Later sections can use that word.
+3. **How it forms.** Trace the steps that produce this particular shape. For example, explain how invisible water vapour becomes visible drops or ice and how the movement of the air arranges them into a sheet, streak or tower.
+4. **What it means for the weather.** Use this broad heading in each language. Describe conditions under the cloud now and a plausible change over the next few hours. Give a sign the reader can check again, such as a widening patch of blue or a fading shadow. Distinguish rain falling from the cloud from rain that may arrive later with another cloud. Include wind, temperature, pressure or differences between land and sea when they help explain the observation.
+5. **A cultural detail or the origin of the name.** Choose one well-sourced detail. Identify who used the name or recorded the observation, and what they saw in the sky. If a cultural account is unavailable, explain the Latin name and connect its meaning to a visible feature.
+6. **Weather folklore.** When a documented saying applies, give it a separate section. Identify where it was recorded and link to the source. Keep its original subject precise: a saying about a ring around the Moon concerns the ring. Explain what the observed sign can tell the reader and what additional change would lend the prediction support.
 
 ## Editorial example
 
