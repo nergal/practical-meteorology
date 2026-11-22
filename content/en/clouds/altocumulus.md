@@ -1,33 +1,30 @@
 # Altocumulus
 
-## What to look for
+## Which clouds are making those rows?
 
-Altocumulus forms patches or layers of rounded cloud elements. Look for a mixture of white and gray within the same patch. Some elements stand apart, while others run together in rolls or bands with narrow gaps. [Cirrocumulus](cirrocumulus.md) can also form rows, with smaller, mostly unshaded grains. Compare patches well above the horizon, where distance and perspective are less likely to make a layer look unusually fine. Altocumulus can also appear as a few smooth, separate lenses.
+Compare the parts of a row that pass high overhead. In [cirrocumulus](cirrocumulus.md) the white grains are so small that individual shadows are hard to see. In altocumulus, shading gives the clumps depth. The rolls of low [stratocumulus](stratocumulus.md) usually look much broader again.
 
-## Where it forms and how it changes
+## How a cloud can stand still in the wind
 
-In temperate regions, Altocumulus typically occupies the middle cloud level, roughly 2–7 km above the ground. The middle and high cloud levels overlap, so from the ground, texture and shading help tell them apart.
+In temperate latitudes altocumulus usually lies 2–7 km up. It consists mostly of tiny droplets. When wind carries moist air across hills, waves can develop downstream. As air rises and cools on one side of a wave, some of its invisible water vapour turns into droplets you can see. On the descending side the droplets evaporate. A smooth lens-shaped cloud can hang over the same spot for a long time, even in a strong wind at that height.
 
-Altocumulus usually contains tiny water droplets, which can stay liquid below freezing. Ice crystals may also form in colder parts. When moist air rises and cools enough for water vapor to condense, patches can appear at the same level and join into a wider sheet. Waves in the flow can organize them into rows. Where air flowing over hills or mountains sets up a wave, a lens-shaped cloud can keep its position while air moves through it.
+## A morning pattern worth watching
 
-## What it can tell you about the weather
-
-The patch reveals an area of moist air at mid-level. In thin parts, diffraction around tiny droplets can produce a corona, a set of rings close to the Moon. Ice crystals can sometimes leave streaks that fade before reaching the ground. A single patch gives little guidance about when rain might reach you, how strong the surface wind will be, or whether the air near the ground will warm or cool.
+Rows of shallow clumps can drift overhead and leave you dry. Look more closely if several little turrets rise from the same row in the morning, like battlements along a wall. Each turret marks a pocket of rising air where fresh droplets are forming. Showers and thunderstorms are more likely on a day with these signs. Later, a [thundercloud](cumulonimbus.md) with a visible shaft of rain gives a better idea of where a shower is actually falling.
 
 ## Photographs
 
-![Diagonal ridges rise from the lower left. A darker side gives each bright roll depth.](../../../docs/photo-selection/altocumulus/01-shaded-rolls.jpg)
+![Diagonal rows of pale rolls with grey sides.](../../../docs/photo-selection/altocumulus/01-shaded-rolls.jpg)
 
-Diagonal ridges rise from the lower left. A darker side gives each bright roll depth.
+Towards the lower left, a strip of shade separates each bright crest from the next.
 
-![Rounded clouds above the trees merge into nearly parallel gray-and-white bands.](../../../docs/photo-selection/altocumulus/02-layer-over-trees.jpg)
+![Rounded grey and white clouds above the silhouettes of trees.](../../../docs/photo-selection/altocumulus/02-layer-over-trees.jpg)
 
-Rounded clouds above the trees merge into nearly parallel gray-and-white bands.
+Above the trees the individual clumps merge into long, rippling bands.
 
-![The broad lens at right has a smooth upper edge, a tapered tip and a shaded underside.](../../../docs/photo-selection/altocumulus/03-lenticular-clouds.jpg)
+![Several smooth, elongated clouds above a dark field.](../../../docs/photo-selection/altocumulus/03-lenticular-clouds.jpg)
 
-The broad lens at right has a smooth upper edge, a tapered tip and a shaded underside.
-
+The cloud on the right is smooth and tapers at both ends. This is the lens-shaped form of altocumulus.
 
 ## Reference
 

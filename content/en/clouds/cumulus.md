@@ -1,31 +1,32 @@
 # Cumulus
 
-Trace the outline of a single cloud. Along the top, your eye follows a series of rounded bulges. Along the bottom, it can often follow an almost straight line. Sunlight picks out the white bulges above a shaded base. Look for gaps between neighbouring clouds. If the rounded parts join into an extensive bank with a common base, compare it with [Stratocumulus](stratocumulus.md).
+## What you see from the ground
 
-## Why the bases line up
+A cloud straight overhead may show you little more than a grey patch. Pick one farther away, where you can see blue sky between the cloud and the horizon. The side facing the ground often looks almost straight. On the side facing open sky, white bulges catch the light. This side view makes even a tall cloud easier to recognise.
 
-On a sunny day over a plain, the ground warms the air just above it. Pockets of warmer air rise, expand and cool. At the height where the air becomes saturated, water vapour condenses into tiny droplets and the cloud becomes visible. Where temperature and humidity near the ground are similar over a wide area, neighbouring clouds form at about the same level. In temperate latitudes the base often lies below 2 km above the surface. Over the sea, cool air travelling over warmer water can also rise in this way.
+## Why several clouds line up
 
-## What to watch next
+On a sunny day pockets of air warmed by a field begin to rise. As they rise, they expand and cool. Eventually some of the invisible water vapour in the air turns into tiny drops. That is where the cloud first becomes visible. Where neighbouring fields are equally warm and damp, this happens at about the same height, often less than 2 km up in temperate latitudes. Over the sea, cold air passing over warmer water can rise in much the same way.
 
-Pick one cloud top and look again a few minutes later. A shallow cloud whose edge is losing definition may already be evaporating. As long as the clouds stay small, there is little to suggest a shower from them. If fresh bulges keep rising above the same base, an updraught is feeding the cloud. Towering cumulus can already produce a shower. If its summit turns fibrous or spreads into an anvil, compare it with [Cumulonimbus](cumulonimbus.md).
+## Could it turn into a shower?
 
-One white summit tells you little about tomorrow's temperature or the wind at your position. An approaching shaft of precipitation is a more immediate clue. A cool gust can arrive ahead of a shower even if its edge passes you by.
+Pick a cloud you can see from the side and look again in a few minutes. If its outline frays and blue starts to show through, the droplets are evaporating. It usually stays dry while the clouds stay small.
+
+If fresh white bulges keep rising from the same spot, air is still feeding the cloud from below. A tall cumulus can already give a shower. When the rounded outline blurs and the cloud begins to spread into wisps sideways, compare it with [cumulonimbus](cumulonimbus.md). Underneath, the first change you feel may be a cool gust ahead of the rain.
 
 ## Photographs
 
-![Against the blue sky, trace the rounded top and the darker, nearly level lower edge.](../../../docs/photo-selection/cumulus/01-isolated-cloud.jpg)
+![A single white cloud with rounded bulges and a shaded grey edge.](../../../docs/photo-selection/cumulus/01-isolated-cloud.jpg)
 
-Against the blue sky, trace the rounded top and the darker, nearly level lower edge.
+The white outline rises in rounded steps. The shaded edge facing the ground is almost straight.
 
-![Follow the row above the trees on the right. Each small cloud rises only a little above its base.](../../../docs/photo-selection/cumulus/02-treeline.jpg)
+![Scattered small white clouds above a forest.](../../../docs/photo-selection/cumulus/02-treeline.jpg)
 
-Follow the row above the trees on the right. Each small cloud rises only a little above its base.
+On the right, the flat edges of several clouds line up above the trees.
 
-![The sunlit edge of the taller tower on the right breaks into rounded lobes. The shorter tower to its left has the same shape.](../../../docs/photo-selection/cumulus/03-towers.jpg)
+![Two tall heaps of cloud above trees, the one on the right much taller.](../../../docs/photo-selection/cumulus/03-towers.jpg)
 
-The sunlit edge of the taller tower on the right breaks into rounded lobes. The shorter tower to its left has the same shape.
-
+Against the blue sky on the right, the tallest cloud still has sharply outlined white bulges.
 
 [WMO International Cloud Atlas](https://cloudatlas.wmo.int/en/clouds-genera-cumulus.html)
 

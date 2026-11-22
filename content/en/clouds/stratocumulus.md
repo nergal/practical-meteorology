@@ -1,37 +1,32 @@
 # Stratocumulus (Sc)
 
-## What to look for
+## One cloud or several?
 
-Look for broad rolls or rounded patches across a low layer. Follow an individual patch until it joins its neighbours or ends at a gap. The darker undersides and rounded outlines often stand out even when much of the sky is covered. [Stratus](stratus.md) looks smoother, while [Altocumulus](altocumulus.md) usually has smaller-looking elements when you compare clouds well above the horizon.
+Looking up, you can often follow a roll until it meets the next one or ends at a strip of blue. When the gaps close, the darker hollows still show where the rolls meet. A sheet of [stratus](stratus.md) at a similar height looks much smoother.
 
-## How it forms and changes
+## How the rolls join up
 
-In temperate latitudes, the cloud layer typically sits within the lowest 2 km above the ground. In one common formation process, moist air rises and cools until water vapour condenses into droplets. If a stable layer above slows the rising air, the tops of low [Cumulus](cumulus.md) can spread sideways and join, producing a shallow layer.
+In temperate latitudes you are usually looking at cloud less than 2 km above you. A morning of scattered [cumulus](cumulus.md) over a plain can turn into an almost unbroken afternoon sky. Rising air cools until some of its water vapour turns into visible droplets. If the rising air meets a layer of warmer air above, it may stop rising. The clouds spread sideways and join.
 
-The layer can hold for hours while the low air stays moist. If drier air mixes in, drops evaporate and gaps can widen. If the gaps close and the rounded outlines fade into a smooth sheet, compare it with Stratus.
+## Will the sun come out?
 
-## What it can tell you about the weather
+It often stays dry under these clouds, though thicker patches can give light rain or snow. If the gaps are getting wider as the surrounding cloud dissolves, you may see more sunshine over the next hour. A gap that keeps its shape as it passes overhead gives only a brief spell of sun.
 
-It often stays dry underneath this cloud. A thicker layer can give light rain or snow, but the cloud pattern alone gives little basis for predicting when it will start. Track a patch against a treetop to see how the cloud is moving. Wind at the surface can differ in speed and direction. If the cover persists, less sunlight reaches you by day and the ground may cool more slowly at night.
-
-## A ring around the Moon
-
-When the Moon shines through a thin patch, look for a small ring close to it. This is a corona. Tiny cloud droplets bend and spread the light passing around them, a process called diffraction.
+Over land, a blanket of cloud can slow the warming of the ground by day. At night the ground loses heat quickly under clear skies. Under low cloud it usually cools more slowly if the wind stays much the same.
 
 ## Photographs
 
-![On the right, follow the gold-lit edges of the rolls and the blue gaps between them.](../../../docs/photo-selection/stratocumulus/01-sunlit-rolls.jpg)
+![Long rolls of cloud lit with gold from one side.](../../../docs/photo-selection/stratocumulus/01-sunlit-rolls.jpg)
 
-On the right, follow the gold-lit edges of the rolls and the blue gaps between them.
+The low sun catches the edges of the rolls. Their rounded shape stands out on the right.
 
-![Just left of the glow above the trees, look for broad, rounded shapes in the joined grey layer.](../../../docs/photo-selection/stratocumulus/02-sunrise-layer.jpg)
+![Uneven grey cloud over a field, bright sky near the horizon.](../../../docs/photo-selection/stratocumulus/02-sunrise-layer.jpg)
 
-Just left of the glow above the trees, look for broad, rounded shapes in the joined grey layer.
+Above the bright patch on the horizon the rolls have almost merged. Pockets of shade still pick out individual shapes.
 
-![Above the trees on the right, trace the grey masses across the middle and see where blue sky shows through.](../../../docs/photo-selection/stratocumulus/03-broken-layer.jpg)
+![Broken cover of grey clumps with blue gaps above trees.](../../../docs/photo-selection/stratocumulus/03-broken-layer.jpg)
 
-Above the trees on the right, trace the grey masses across the middle and see where blue sky shows through.
-
+Near the middle of the picture, blue gaps separate the broad, rounded clumps.
 
 [WMO International Cloud Atlas — Stratocumulus](https://cloudatlas.wmo.int/en/clouds-genera-stratocumulus.html)
 

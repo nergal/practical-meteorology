@@ -1,33 +1,32 @@
 # Altostratus
 
-## How to recognize it
+## What happened to the shadows?
 
-Look for a broad grey or blue-grey sheet. It may look smooth, streaky or gently rippled. In a thin part of the sheet, the Sun can show as a pale spot with blurred edges, like light through frosted glass. Compare the sheet with [Altocumulus](altocumulus.md), which usually has individual rounded patches or rolls. If the layer looks dark and diffuse and widespread rain or snow is reaching you, compare it with [Nimbostratus](nimbostratus.md).
+Objects on the ground still cast shadows through a thin [cirrostratus veil](cirrostratus.md). Under altostratus, sunlight is so scattered that shadows all but disappear. The sun itself may still show through. Long bands of slightly different greys sometimes show across the sheet.
 
-## Height and formation
+## Why so much sky clouds over at once
 
-In temperate latitudes, Altostratus usually occupies the middle level, roughly 2–7 km above the surface, and can extend higher. A wide region of moist air can rise gradually, cool and form a broad sheet of water droplets and ice crystals. These particles scatter sunlight, giving the solar disc its soft outline.
+Warm air can ride slowly up over colder air. It cools as it rises, and some of the water vapour you could not see turns into droplets and ice crystals. The resulting sheet of cloud can stretch for hundreds of kilometres. In temperate latitudes this cloud usually lies roughly 2–7 km above the ground and can extend higher.
 
-## How it changes and what it means
+## Will the rain reach the ground?
 
-Ahead of some warm fronts, a high veil thickens into Altostratus. If the layer keeps thickening and lowering, watch for the Sun to fade and for rain or snow to reach the surface. The layer may develop into Nimbostratus. It can also persist for hours or thin and break up. A single sighting gives little basis for predicting when or whether rain will arrive. A falling barometer alongside a thickening sheet gives you another clue that a weather system may be approaching. Surface wind and temperature need separate observations.
+Sometimes grey streaks hang below the sheet and fade in mid-air. This is virga. Precipitation is already falling from the cloud, but the air below is dry enough for the drops to evaporate or the ice crystals to turn to vapour.
 
-Look for *virga*, faint streaks that hang below the cloud and fade before reaching the surface. Raindrops evaporate or ice crystals turn to vapour in drier air below the cloud.
+If the pale sun disappears over the next few hours and distant landmarks fade behind falling rain or snow, a longer spell of precipitation becomes more likely. Once it is falling steadily from a dark, continuous sheet, compare the sky with [nimbostratus](nimbostratus.md). The sequence can also reverse as the sun grows brighter and shadows return to the ground.
 
 ## Photographs
 
-![Find the small pale Sun above the middle of the frame. The smooth grey sheet surrounds the glow.](../../../docs/photo-selection/altostratus/01-dimmed-sun.jpg)
+![Small patch of sunlight in an almost uniform grey sky.](../../../docs/photo-selection/altostratus/01-dimmed-sun.jpg)
 
-Find the small pale Sun above the middle of the frame. The smooth grey sheet surrounds the glow.
+The sun is still visible. A faint glow around it fades gradually into the grey sheet.
 
-![Follow the broad light and dark bands above and to the right of the Sun. The rooftops mark the bottom of the view.](../../../docs/photo-selection/altostratus/02-ripples-over-town.jpg)
+![Light and dark grey bands above rooftops, with the sun behind cloud.](../../../docs/photo-selection/altostratus/02-ripples-over-town.jpg)
 
-Follow the broad light and dark bands above and to the right of the Sun. The rooftops mark the bottom of the view.
+The bands above the roofs differ in brightness, but there are no blue gaps between them.
 
-![Start at the bright patch to the right of centre, then look for fine bands lower in the frame.](../../../docs/photo-selection/altostratus/03-uneven-thickness.jpg)
+![Dim sun on the right and dark branches on the left.](../../../docs/photo-selection/altostratus/03-uneven-thickness.jpg)
 
-Start at the bright patch to the right of centre, then look for fine bands lower in the frame.
-
+On the right, sunlight comes through a thinner part of the cloud. The same sheet looks dark farther left.
 
 [WMO International Cloud Atlas — Altostratus](https://cloudatlas.wmo.int/en/clouds-genera-altostratus.html) · [WMO — Cloud levels](https://cloudatlas.wmo.int/en/some-useful-concepts-levels.html)
 

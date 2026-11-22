@@ -1,35 +1,32 @@
 # Stratus (St)
 
-## What to look for
+## When the fog lifts
 
-Look for a low gray sheet with a fairly smooth underside. It may cover the whole sky, with only faint changes in shade. Where the cloud is thin enough to see the Sun, its disk has a clear outline. If you see rows of rounded clumps or rolls with light and dark sides, compare them with [Stratocumulus](stratocumulus.md).
+Early in the morning you can barely make out the trees across a field. Later, you can see the whole line of trees again, yet the sky above them is still grey. This is one way fog becomes low stratus. Fog and cloud both consist of tiny drops of water. In fog those drops hang in the air right around you. When the fog lifts, the drops that remain are overhead.
 
-## Where it forms
+In temperate latitudes the cloud may hang just above the treetops or as much as 2 km above the ground. Seen from below, the sheet shows few individual shapes. If you can trace rows of rounded rolls with dark sides, compare them with [stratocumulus](stratocumulus.md).
 
-In temperate latitudes, the base of Stratus can be near the surface or up to about 2 km above it. That height is the distance to the underside of the cloud. Stratus can form when moist air cools over cold ground or water. Water vapor condenses into tiny droplets across a shallow layer, giving the cloud its even appearance.
+## Will it clear by midday?
 
-## What may happen next
+When sunshine starts warming the ground, the air touching it warms too, and droplets evaporate. A brighter patch in the grey may give way to a gap. Over cold water the air can keep cooling from below, so the cloud may persist well into the afternoon. A wind off the water can bring it onto a sun-warmed shore. You may feel the cooler air arrive with the cloud.
 
-Over land, a low sheet can persist for hours if the air stays cool and moist. If sunshine warms the ground, breaks may appear as the droplets evaporate. Over cool water, where the air can keep cooling from below, the cover may last even through the afternoon. When the cloud reaches the surface, you are in fog. Notice how distant trees, buildings or boats fade first as visibility falls.
+## Drizzle or just a grey day?
 
-## What it tells you about the weather
-
-Stratus can bring drizzle or stay dry, so a gray sheet alone gives little basis for expecting steady rain. Its shape gives little information about surface wind or whether the air will warm or cool over the next few hours. If a breeze off cool water arrives as the cloud moves inland, the breeze and low cloud can both be signs of cool, moist air moving ashore.
+It often stays dry under a thin sheet. A thicker one can give drizzle. The tiny drops show up well on a dark sleeve. A prolonged fall of larger drops that blots out a distant shore is more typical of [nimbostratus](nimbostratus.md).
 
 ## Photographs
 
-![A gray sheet. Look for the subtle change in shade across the frame. The layer has very little texture.](../../../docs/photo-selection/stratus/01-uniform-layer.jpg)
+![A nearly uniform grey sky with subtle changes in tone.](../../../docs/photo-selection/stratus/01-uniform-layer.jpg)
 
-**A gray sheet.** Look for the subtle change in shade across the frame. The layer has very little texture.
+Only the brightness changes across this patch of sky. There are no distinct rolls or separate clumps.
 
-![Sun above the trees. The Sun’s disk has a clear outline, and the more distant trees fade into the cloud.](../../../docs/photo-selection/stratus/02-sun-through-layer.jpg)
+![The sun above trees, with the more distant trees fading into mist.](../../../docs/photo-selection/stratus/02-sun-through-layer.jpg)
 
-**Sun above the trees.** The Sun’s disk has a clear outline, and the more distant trees fade into the cloud.
+The sun still has a sharp rim. Beyond the front row of trees, only faint outlines of the crowns show through.
 
-![Overcast above the coast. Follow the broad gray deck across the sky above the pier.](../../../docs/photo-selection/stratus/03-coastal-overcast.jpg)
+![A grey sky over a beach and a long pier.](../../../docs/photo-selection/stratus/03-coastal-overcast.jpg)
 
-**Overcast above the coast.** Follow the broad gray deck across the sky above the pier.
-
+The low cloud stretches out to sea. The pier itself is still clearly visible underneath.
 
 [WMO International Cloud Atlas — Stratus](https://cloudatlas.wmo.int/en/clouds-genera-stratus.html)
 

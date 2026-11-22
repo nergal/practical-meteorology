@@ -25,6 +25,8 @@ Select a first image whose characteristic feature is easy to see on a phone. Pre
 
 ## Article coverage
 
+Start with the view available to someone standing outdoors. A cloud seen from the side can have a clear silhouette while the same cloud overhead may look like a grey patch. Describe the visible edge against the sky or a landmark before naming a base, summit or anvil. Introduce height as a typical distance after the visual description. Explain what cooling does to invisible water vapour before relying on humidity or condensation to explain a change. Write photo captions against the actual frame and give screen-reader users the same visual clues.
+
 - **Visible features.** Describe what the reader can check with their own eyes. Include a useful distinction from a similar-looking cloud where relevant.
 - **Height and physical explanation.** Give typical heights for temperate latitudes, identifying whether a height describes the base, top or occupied layer. Connect the visible shape to a process in plain language.
 - **Possible changes.** Describe plausible developments, including persistence or dissipation when relevant. Identify the next visible sign and link to another atlas entry when it helps the reader compare.

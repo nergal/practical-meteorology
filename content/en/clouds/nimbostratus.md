@@ -1,33 +1,30 @@
 # Nimbostratus
 
-## How to recognize it
+## Where is the rain coming from?
 
-Look for an extensive grey sheet that hides the Sun. Its underside often looks hazy, especially where falling rain or snow makes the base difficult to pick out. Dark overcast by itself can resemble thick [Altostratus](altostratus.md). The combination of a diffuse underside and widespread, steady precipitation reaching your location points toward Nimbostratus. A nearby shower is easier to distinguish when you can see the distinct tower of a [Cumulonimbus](cumulonimbus.md).
+From a window or a deck it can be hard to pick out any individual cloud. The sun is hidden. Out in the distance, rain veils the shore and the sky above it. Even during a lull it may be hard to say where the cloud ends. Watching for a while helps here. A photograph of grey sky alone can look much like thick [altostratus](altostratus.md).
 
-## Height and formation
+## How it keeps raining for hours
 
-In temperate latitudes, the main body of Nimbostratus usually occupies the middle level, roughly 2–7 km above the surface. Its base often lies lower and its top can extend above that range. When a broad region of moist air rises gradually and cools, water droplets and ice crystals build up through a deep layer. Snowflakes may melt as they fall through warmer air or reach the surface as snow when the air below is cold enough.
+Air rises slowly over a wide area and cools. Some of its invisible water vapour turns into droplets and ice crystals. As some grow large enough to fall, others are just forming. In temperate latitudes much of the cloud occupies the 2–7 km layer. The part nearest you often hangs less than 2 km up. Cloud and falling rain hide the rest from view. Snowflakes may melt on the way down, so the same sheet can give one place rain and another snow.
 
-## How it changes and what it means
+## Spotting a break in the rain
 
-Altostratus can thicken and lower as a frontal system approaches. Watch for the Sun to disappear and for the sky and distant view to become harder to see through as precipitation sets in. Steady rain or snow may persist for hours while the deep layer is overhead. If the system moves away or the ascent weakens, precipitation can ease and the sheet may thin. A single view gives little basis for estimating when it will end, how strong the surface wind will be, or how the temperature will change.
-
-Look for *pannus*, ragged low clouds drifting beneath the main layer. They can form as falling precipitation moistens the air below. In time they can merge and hide the higher layer.
+Dark scraps of low cloud sometimes race under the rain sheet. They form in the damp air beneath the main cloud and can change in minutes while the rain keeps falling at the same rate. Try watching a distant shore or stand of trees that the rain has hidden. If the view steadily clears and a brighter part of the sky widens on that same side, the edge of the rain may be drawing closer.
 
 ## Photographs
 
-![Follow the change from pale grey near the top to darker blue-grey below. The edges between these shades are soft.](../../../docs/photo-selection/nimbostratus/01-overhead-layer.jpg)
+![Unevenly lit grey overcast, darker at the bottom of the frame.](../../../docs/photo-selection/nimbostratus/01-overhead-layer.jpg)
 
-Follow the change from pale grey near the top to darker blue-grey below. The edges between these shades are soft.
+One shade of grey blends into the next. Without observing the precipitation, this view alone is hard to identify.
 
-![Compare the crisp ridgeline with the muted grey bands above the hills.](../../../docs/photo-selection/nimbostratus/02-layer-over-hills.jpg)
+![Broad grey bands above a mountain ridge.](../../../docs/photo-selection/nimbostratus/02-layer-over-hills.jpg)
 
-Compare the crisp ridgeline with the muted grey bands above the hills.
+The ridge has a sharp outline, but the lower edge of the cloud above it is hard to place.
 
-![Pick out the ragged grey patches above the rooftops, below the continuous sheet.](../../../docs/photo-selection/nimbostratus/03-ragged-clouds-below.jpg)
+![Dark ragged patches beneath a lighter grey sheet above rooftops.](../../../docs/photo-selection/nimbostratus/03-ragged-clouds-below.jpg)
 
-Pick out the ragged grey patches above the rooftops, below the continuous sheet.
-
+The scraps above the roofs hang below the main layer. The same grey sheet shows through the gaps between them.
 
 [WMO International Cloud Atlas — Nimbostratus](https://cloudatlas.wmo.int/en/clouds-genera-nimbostratus.html) · [WMO — Nimbostratus and thick Altostratus](https://cloudatlas.wmo.int/en/ns-compared-with-as-op.html)
 

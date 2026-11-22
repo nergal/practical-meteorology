@@ -1,33 +1,30 @@
 # Cirrocumulus
 
-## What to look for
+## How small is small?
 
-Cirrocumulus looks like a thin scattering of white grains. Find a patch well above the horizon and follow its texture across the sky. The grains may stand apart, merge into ripples or surround small blue holes. Individual grains usually have little or no visible shading. [Altocumulus](altocumulus.md) can form similar rows, with larger elements that often have shaded sides. Clouds near the horizon appear smaller, so compare elements higher in the sky.
+Pick a patch high overhead. Hold your hand at arm’s length. A single white grain is usually narrower than the tip of your little finger. Use a patch well above the horizon. Near the horizon even large clouds can look tiny in the distance. If each rounded piece takes up more space and has a distinctly grey side, compare it with [altocumulus](altocumulus.md).
 
-## Where it forms and how it changes
+## Where the ripples come from
 
-In temperate regions, Cirrocumulus usually occupies the high cloud level, roughly 5–13 km above the ground. This range describes where the genus commonly occurs. The apparent size of the grains depends on both their actual size and their distance from you.
+In temperate latitudes these clouds usually lie 5–13 km up. They consist mostly of ice crystals. Sometimes the air at this height moves in waves. Where it rises it cools, and some of its invisible water vapour turns into tiny crystals. Together the crystals show up as a white band. Where the air sinks and warms again, a gap opens. A series of waves can draw rows of ripples across the sky.
 
-Cirrocumulus consists mainly of tiny ice crystals. Liquid droplets can briefly persist below freezing before ice crystals take over. When a moist layer rises and cools in a wave, cloud can form in the rising part and thin where the air sinks. Repeated waves can produce rows of ripples. Fine grains can also develop in an existing sheet of high cloud. As the surrounding air dries, the grains and rows may fade.
+## What happens underneath?
 
-## What it can tell you about the weather
-
-The pattern tells you about moisture and motion high above you. Occasionally, a faint tail falls from a patch and disappears in the air. Meteorologists call this virga. It may be easier to see against a dark patch of blue. Cirrocumulus alone offers little guidance about rain at ground level, surface wind or how warm the afternoon will be.
+The rows can dwindle to a few specks while the ground below stays dry. If a continuous [white veil](cirrostratus.md) starts filling the gaps, follow the veil over the next few hours. If the veil turns grey and hides the sun in the next few hours, a spell of steady rain or snow becomes more likely.
 
 ## Photographs
 
-![White grains spread across open blue sky and gather into narrow rows at right.](../../../docs/photo-selection/cirrocumulus/01-fine-grains.jpg)
+![A thin scattering of white specks against pale blue sky.](../../../docs/photo-selection/cirrocumulus/01-fine-grains.jpg)
 
-White grains spread across open blue sky and gather into narrow rows at right.
+The grains are easiest to pick out on the left. On the right they gather into fine rows.
 
-![Fine white ripples curve upward from the dark treeline and break into specks around an opening.](../../../docs/photo-selection/cirrocumulus/02-ripple-field.jpg)
+![Rippling rows of white cloud above dark treetops.](../../../docs/photo-selection/cirrocumulus/02-ripple-field.jpg)
 
-Fine white ripples curve upward from the dark treeline and break into specks around an opening.
+Narrow blue lanes separate the white rows above the trees and bring out the ripple pattern.
 
-![Look above the bright diagonal streak. Small blue gaps interrupt the thin, grainy band.](../../../docs/photo-selection/cirrocumulus/03-gaps-and-bands.jpg)
+![Long white streaks and patches of finely grained cloud.](../../../docs/photo-selection/cirrocumulus/03-gaps-and-bands.jpg)
 
-Look above the bright diagonal streak. Small blue gaps interrupt the thin, grainy band.
-
+The tiny grains stand out in the lower half of the picture, below the long bright band.
 
 ## Reference
 
