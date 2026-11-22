@@ -1,18 +1,34 @@
 # Altostratus
 
-## Sunlight through frosted glass
+## What you can see from the ground
 
-The daytime sky turns grey. The sun may still show through as a pale spot. Look at your feet. A shadow that had a sharp edge earlier may be hard to find. Cloud stretches far out in every direction. As light passes through its drops of water and ice crystals, it changes direction many times. Light now reaches the ground from a wide area of sky, softening the shadows.
+A grey or blue-grey sheet covers the sky. A patch of light still tells you where the sun is, but its outline looks blurred, as though seen through frosted glass. At your feet, your shadow is hard to make out.
 
-## How an entire sheet grows
+## How the cloud is built
 
-Warmer air can advance over colder air and rise gently over it. As the air rises, it cools. Some of the invisible water vapour it carries forms drops or ice. This can happen over many towns at once. In temperate regions this cloud usually occupies heights of about 2–7 km and may reach higher.
+This cloud spreads out in a broad sheet roughly 2–7 kilometres above the ground, sometimes reaching higher. It contains tiny water drops and, in its colder parts, ice crystals. The sun shows through the thinner parts. A thicker patch can hide it completely.
 
-## Will the rain reach the ground?
+The drops and crystals scatter sunlight in different directions. Light now reaches the ground around you from a wide area of sky. Some of it reaches even the spot where your shadow would fall on a clear day.
 
-Sometimes grey streaks hang from the cloud and fade out against brighter sky. Rain or snow is already falling there. On the way down the water returns to the air as invisible vapour. The ground beneath can stay dry.
+## How it forms
 
-If the sun disappears over the next few hours and the streaks begin to hide distant buildings, rain or snow may soon reach you. A sheet that thickens gradually often comes before a [long spell of rain or snow](nimbostratus.md). If the sun brightens and shadows return, the sheet is growing thinner.
+As warmer air advances over colder air, it can rise gradually as if climbing a long, gentle slope. The air expands and cools as it rises. Some of the water it carried as invisible vapour forms tiny drops. Higher up, in the cold, ice crystals form too. The air rises over such a wide area that the cloud can cover the sky above several towns at once.
+
+Sometimes you can watch this change from the ground. At first a thin white veil of [cirrostratus](cirrostratus.md) covers the sky. Later, cloud forms lower down as well. Less sunlight passes through the thicker sheet, and over a few hours the whitish sky turns grey.
+
+## What it means for the weather
+
+The ground can still be dry even when rain or snow is already falling from the cloud. From a distance you can sometimes see grey streaks hanging from the cloud and fading in mid-air. The air below is drier, and the falling water turns back into invisible vapour before it reaches the ground.
+
+If the patch of sunlight fades over several hours and eventually disappears, the sheet is getting thicker. This often comes before a [long spell of rain or snow](nimbostratus.md). Watch a distant shore or wood. If its outline fades behind a grey curtain, rain or snow is already reaching the ground there. If the sun grows brighter and shadows return, the cloud is thinning and may clear.
+
+## A name from Japan
+
+One Japanese name for this cloud is *oborogumo* (朧雲). The word *oboro* suggests something whose outline is lost in haze. It is easy to recall at night. A thinner patch of cloud still lets you see where the moon is, but its sharp round edge disappears.
+
+## Weather folklore
+
+In the Irish town of Granard, schoolchildren recorded a saying that a dull, “watery” sun during the day is a sign of rain. The word captures the familiar look of sunlight through cloud. One more detail is worth watching for yourself. Does the sun keep getting dimmer? If it shines brightly again a few hours later, the sky is already changing the other way.
 
 ## Photographs
 
@@ -29,6 +45,12 @@ The bands above the roofs differ in brightness, but there are no blue gaps betwe
 On the right, sunlight comes through a thinner part of the cloud. The same sheet looks dark farther left.
 
 [WMO International Cloud Atlas — Altostratus](https://cloudatlas.wmo.int/en/clouds-genera-altostratus.html) · [WMO — Cloud levels](https://cloudatlas.wmo.int/en/some-useful-concepts-levels.html)
+
+[Met Office · Mid-level clouds](https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/clouds/mid-level-clouds)
+
+[Meteorological Research Institute of Japan](https://www.mri-jma.go.jp/Dep/typ/araki/sorawatch.html)
+
+[Irish National Folklore Collection · Granard](https://www.duchas.ie/en/cbes/5009183/4995328/5104824)
 
 [Photo credits and reuse terms](../../../docs/photo-selection/altostratus/README.md)
 
