@@ -38,9 +38,9 @@ The editorial criteria are in the [atlas editorial guide](../../docs/atlas-edito
 
 ### V. Maintain the repository in English
 
-Repository content, filenames, specifications, code, comments, asset descriptions and
-commit messages must use English. The project owner decides the published interface
-and article languages separately.
+Engineering documentation, filenames, specifications, code, comments, source records and
+commit messages must use English. Reader-facing material uses the product languages approved
+by the project owner, including localized articles and photograph captions.
 
 ## Release Scope
 
@@ -66,4 +66,4 @@ expansions, and patch for clarifications. Reconcile affected documents when adop
 amendment. If a planned change conflicts with a principle, resolve the conflict with the
 owner before implementation.
 
-**Version**: 1.0.0 | **Ratified**: 2026-11-21 | **Last Amended**: 2026-11-21
+**Version**: 1.0.1 | **Ratified**: 2026-11-21 | **Last Amended**: 2026-11-22

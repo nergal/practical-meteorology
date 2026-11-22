@@ -2,6 +2,8 @@
 
 An interactive encyclopedia for people who want to read the weather for themselves. The first release is a mobile, fully offline cloud atlas for beginners observing the sky over flat terrain or the open sea in temperate latitudes.
 
+The first release includes the field guide in [Ukrainian](content/uk/README.md) and [English](content/en/README.md).
+
 ## Project documents
 
 - [Product brief](docs/product-brief.md) records the audience, learning goal, observation methods and longer-term direction.
@@ -17,4 +19,4 @@ The project uses GitHub Spec Kit 1.4.3 with Codex. To install the matching CLI, 
 
 ## Repository language
 
-Use English for everything added to this repository, including documentation, filenames, source code, comments, asset descriptions and commit messages. The language of the published interface and articles remains a separate product decision.
+Use English for repository documentation, filenames, code, comments, credit records and commit messages. Reader-facing content uses its target language under `content/<locale>/`. The MVP supports Ukrainian (`uk`) and English (`en`). Both editions share photographs, credits and genus filenames.

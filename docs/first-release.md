@@ -9,6 +9,10 @@
 
 The article itself explains the relevance of additional observations such as wind or cooling. Readers can compare later changes with the text without entering observations or selecting symptoms.
 
+## Release languages
+
+The MVP supports Ukrainian and English throughout the reader experience. Both editions include the same ten articles, thirty photo captions and offline navigation. Other languages can follow in later releases.
+
 ## Release checks
 
 - All ten genera are available, each with one representative photo, two additional photos and one article. The collection totals 30 photographs and 10 articles.
