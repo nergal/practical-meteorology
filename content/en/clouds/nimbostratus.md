@@ -1,16 +1,14 @@
 # Nimbostratus
 
-## Where is the rain coming from?
+## Where does the cloud begin?
 
-From a window or a deck it can be hard to pick out any individual cloud. The sun is hidden. Out in the distance, rain veils the shore and the sky above it. Even during a lull it may be hard to say where the cloud ends. Watching for a while helps here. A photograph of grey sky alone can look much like thick [altostratus](altostratus.md).
+Grey sky stretches from horizon to horizon. Rain falls steadily and hides a distant wood or shore. You are looking through countless drops that have already fallen below the cloud. That makes it hard to tell where the cloud itself begins. Even a clear photograph of grey sky is hard to identify on its own. A clue is rain or snow that covers a wide area and keeps falling with few breaks.
 
-## How it keeps raining for hours
+## How one cloud can give hours of rain
 
-Air rises slowly over a wide area and cools. Some of its invisible water vapour turns into droplets and ice crystals. As some grow large enough to fall, others are just forming. In temperate latitudes much of the cloud occupies the 2–7 km layer. The part nearest you often hangs less than 2 km up. Cloud and falling rain hide the rest from view. Snowflakes may melt on the way down, so the same sheet can give one place rain and another snow.
+Air rises slowly and cools over a wide area. Water that was invisible vapour forms drops and, higher up in the cold, ice crystals. In temperate regions much of the cloud lies 2–7 km above you, and it often extends below 2 km. It is thick enough to hide the sun completely.
 
-## Spotting a break in the rain
-
-Dark scraps of low cloud sometimes race under the rain sheet. They form in the damp air beneath the main cloud and can change in minutes while the rain keeps falling at the same rate. Try watching a distant shore or stand of trees that the rain has hidden. If the view steadily clears and a brighter part of the sky widens on that same side, the edge of the rain may be drawing closer.
+Crystals grow and fall as snow. If the air nearer the ground is warm enough, the flakes melt, and you feel rain. While some drops are reaching you, others are still forming in the cloud. This is how rain or snow can continue for hours. If the horizon brightens on one side and a distant shore emerges from the rain, the edge of the wet weather may be approaching. For a sky that can look similar before steady rain sets in, see [altostratus](altostratus.md).
 
 ## Photographs
 

@@ -1,18 +1,16 @@
 # Stratus (St)
 
-## When the fog lifts
+## Fog you can walk underneath
 
-Early in the morning you can barely make out the trees across a field. Later, you can see the whole line of trees again, yet the sky above them is still grey. This is one way fog becomes low stratus. Fog and cloud both consist of tiny drops of water. In fog those drops hang in the air right around you. When the fog lifts, the drops that remain are overhead.
+Early in the morning you can barely make out the trees across a field. Later their trunks come back into view while their crowns are still lost in grey. You can see just where the low cloud begins. Once it is above the trees, it looks like a smooth grey sky overhead.
 
-In temperate latitudes the cloud may hang just above the treetops or as much as 2 km above the ground. Seen from below, the sheet shows few individual shapes. If you can trace rows of rounded rolls with dark sides, compare them with [stratocumulus](stratocumulus.md).
+Air contains invisible water vapour. When air cools over cold ground or water, some of the vapour turns into tiny drops. If this happens over a whole field or bay, the drops form a broad, shallow sheet. At eye level you experience it as fog. When air close to the ground warms, the lowest drops evaporate and a sheet of stratus can remain overhead. In temperate regions it can hang anywhere from around treetop height to about 2 km up.
 
-## Will it clear by midday?
+## Where the drizzle comes from
 
-When sunshine starts warming the ground, the air touching it warms too, and droplets evaporate. A brighter patch in the grey may give way to a gap. Over cold water the air can keep cooling from below, so the cloud may persist well into the afternoon. A wind off the water can bring it onto a sun-warmed shore. You may feel the cooler air arrive with the cloud.
+It often stays dry beneath this cloud. If some drops join and grow, they can fall as drizzle, so fine that it is easier to see on a dark sleeve than in the air. Steady rain that hides a distant shore for hours is more typical of [nimbostratus](nimbostratus.md).
 
-## Drizzle or just a grey day?
-
-It often stays dry under a thin sheet. A thicker one can give drizzle. The tiny drops show up well on a dark sleeve. A prolonged fall of larger drops that blots out a distant shore is more typical of [nimbostratus](nimbostratus.md).
+Over land, blue gaps may open by midday. Sunshine warms the ground and the air touching it, so more drops evaporate. Over cold water the sheet may last well into the afternoon.
 
 ## Photographs
 

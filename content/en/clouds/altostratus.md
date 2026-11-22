@@ -1,18 +1,18 @@
 # Altostratus
 
-## What happened to the shadows?
+## Sunlight through frosted glass
 
-Objects on the ground still cast shadows through a thin [cirrostratus veil](cirrostratus.md). Under altostratus, sunlight is so scattered that shadows all but disappear. The sun itself may still show through. Long bands of slightly different greys sometimes show across the sheet.
+The daytime sky turns grey. The sun may still show through as a pale spot. Look at your feet. A shadow that had a sharp edge earlier may be hard to find. Cloud stretches far out in every direction. As light passes through its drops of water and ice crystals, it changes direction many times. Light now reaches the ground from a wide area of sky, softening the shadows.
 
-## Why so much sky clouds over at once
+## How an entire sheet grows
 
-Warm air can ride slowly up over colder air. It cools as it rises, and some of the water vapour you could not see turns into droplets and ice crystals. The resulting sheet of cloud can stretch for hundreds of kilometres. In temperate latitudes this cloud usually lies roughly 2–7 km above the ground and can extend higher.
+Warmer air can advance over colder air and rise gently over it. As the air rises, it cools. Some of the invisible water vapour it carries forms drops or ice. This can happen over many towns at once. In temperate regions this cloud usually occupies heights of about 2–7 km and may reach higher.
 
 ## Will the rain reach the ground?
 
-Sometimes grey streaks hang below the sheet and fade in mid-air. This is virga. Precipitation is already falling from the cloud, but the air below is dry enough for the drops to evaporate or the ice crystals to turn to vapour.
+Sometimes grey streaks hang from the cloud and fade out against brighter sky. Rain or snow is already falling there. On the way down the water returns to the air as invisible vapour. The ground beneath can stay dry.
 
-If the pale sun disappears over the next few hours and distant landmarks fade behind falling rain or snow, a longer spell of precipitation becomes more likely. Once it is falling steadily from a dark, continuous sheet, compare the sky with [nimbostratus](nimbostratus.md). The sequence can also reverse as the sun grows brighter and shadows return to the ground.
+If the sun disappears over the next few hours and the streaks begin to hide distant buildings, rain or snow may soon reach you. A sheet that thickens gradually often comes before a [long spell of rain or snow](nimbostratus.md). If the sun brightens and shadows return, the sheet is growing thinner.
 
 ## Photographs
 

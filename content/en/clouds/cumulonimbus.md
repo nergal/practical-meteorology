@@ -1,16 +1,14 @@
 # Cumulonimbus
 
-## Looking from the side or from underneath
+## Inside a dark cloud tower
 
-From a distance, compare the cloud with a [cumulus](cumulus.md) beside it. On the smaller cloud you can pick out rounded white bulges. As the taller cloud grows, ice forms aloft and the part that was sharply rounded begins to look smooth or fibrous. Where the rising air slows down, cloud can spread sideways into a shape called an anvil. Sometimes you can see that shelf long before you can see the rain.
+From a distance you can see one cloud rising above its neighbours and spreading sideways into a broad white shelf. Underneath it may be almost dark. Sunlight has to pass through kilometres of cloud, so little light reaches the shaded side.
 
-Standing directly underneath, you may see only dark sky. The cloud hides its own shape. In temperate latitudes the part nearest the ground often hangs less than 2 km up, while the cloud can grow to 5–13 km or higher. Thunder is a sign of a nearby storm even when its outline is hidden.
+This cloud can grow from an ordinary [cumulus](cumulus.md). Warm air carrying water vapour feeds it from below. As the air rises and cools, some of the vapour forms drops. In temperate regions the part nearest the ground often hangs less than 2 km up, while the cloud can reach 5–13 km or more. At those heights it is cold enough for ice crystals to form. Where the rising air slows down, the wind carries ice out to the sides. This makes the white shelf, called an anvil. If you stand directly underneath the cloud, the anvil may be hidden from view.
 
-## Why wind can arrive before rain
+## Why a gust can reach you before the rain
 
-From a distance, a heavy shower often looks like a dark curtain joining cloud and ground. Some drops evaporate as they fall, cooling the surrounding air. The cooler air descends and spreads when it reaches the surface. This can bring a sudden chill and gust of wind on a warm, still day. Over smooth water you may even see a line of ripples running ahead of the rain.
-
-If the curtain hides first a distant landmark and then a nearer one in the same direction, the rain is moving towards you and may arrive within minutes. If it tracks along the horizon, the shower may pass to one side and the gust can still reach you. When you hear thunder, seek shelter even if it is still dry where you are.
+Drops and pieces of ice grow and fall. The ice may melt on the way down. From a distance, heavy rain looks like a grey curtain joining the cloud to the ground. Some drops evaporate, cooling the air around them. The cooler air descends and spreads out when it reaches the surface. You may feel it on your cheek as a sudden cool gust before the first drops fall. Sometimes the gust reaches you while the curtain of rain passes to one side. If you can hear thunder, it is time to seek shelter.
 
 ## Photographs
 

@@ -1,16 +1,16 @@
 # Altocumulus
 
-## Which clouds are making those rows?
+## Why each clump has a shaded side
 
-Compare the parts of a row that pass high overhead. In [cirrocumulus](cirrocumulus.md) the white grains are so small that individual shadows are hard to see. In altocumulus, shading gives the clumps depth. The rolls of low [stratocumulus](stratocumulus.md) usually look much broader again.
+Many white clumps or short bands are visible high overhead. One side of a clump often catches the sun while the other looks grey. Less sunlight gets through the thicker part. The shading gives each clump depth. In [cirrocumulus](cirrocumulus.md), which can make a similar pattern, the individual white grains look smaller and show little shading.
 
-## How a cloud can stand still in the wind
+In temperate regions altocumulus usually hangs 2–7 km up. Each clump is made mostly of tiny water drops. They form where air rises a little and cools enough for water vapour to turn into drops. Nearby, air may sink and warm again. Drops evaporate there, leaving a blue gap. Where the air moves in waves, the clumps can line up in rows.
 
-In temperate latitudes altocumulus usually lies 2–7 km up. It consists mostly of tiny droplets. When wind carries moist air across hills, waves can develop downstream. As air rises and cools on one side of a wave, some of its invisible water vapour turns into droplets you can see. On the descending side the droplets evaporate. A smooth lens-shaped cloud can hang over the same spot for a long time, even in a strong wind at that height.
+In the third photograph the clouds look like smooth lenses. This can happen downwind of hills, where the wind sets the air rising and sinking in waves. Drops keep forming on the rising side and evaporating on the sinking side. A lens can hang over the same spot while wind blows through it.
 
-## A morning pattern worth watching
+## A morning pattern worth remembering
 
-Rows of shallow clumps can drift overhead and leave you dry. Look more closely if several little turrets rise from the same row in the morning, like battlements along a wall. Each turret marks a pocket of rising air where fresh droplets are forming. Showers and thunderstorms are more likely on a day with these signs. Later, a [thundercloud](cumulonimbus.md) with a visible shaft of rain gives a better idea of where a shower is actually falling.
+Rows of flat clumps often drift by without bringing rain to the ground. Look again if white turrets rise along a strip of cloud in the morning, like battlements along a wall. Each turret marks a place where air keeps rising. That is one clue that [thunderclouds](cumulonimbus.md) could grow later. The turrets alone give little indication of where a shower might fall.
 
 ## Photographs
 

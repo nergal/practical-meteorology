@@ -1,14 +1,14 @@
 # Cirrostratus (Cs)
 
-## The cloud that gives itself away with a ring
+## Spotting an almost transparent cloud
 
-On some nights the moon shines clearly, yet a circle of light hangs far out around it. This is a halo. In temperate latitudes it often forms in a thin ice cloud 5–13 km up. Light bends as it passes through six-sided crystals. The common halo has a radius of about 22°, roughly the width of an outstretched hand at arm’s length. In daylight, block the sun itself with the edge of a roof while you look for the ring.
+Out in the sunshine your shadow still has a sharp edge, but the blue overhead looks pale. A thin cloud has spread between you and the blue sky. In temperate regions it usually lies 5–13 km up, where the air is very cold. As air rises slowly and cools over a wide area, tiny ice crystals can form in it. Together they make a white veil, with enough space between the crystals for plenty of daylight to pass through. With separate [cirrus streaks](cirrus.md), distinct patches of deeper blue remain between the threads.
 
-You can spot the veil even without a halo. The blue looks washed out over a wide area, yet a post or a tree still casts a sharp shadow. With separate [cirrus streaks](cirrus.md), patches of deeper, clearer blue show between the white threads.
+Sometimes you can see a wide ring of light on the veil around the moon. Ice crystals have flat faces that bend the light passing through them. Some rays reach your eye at the same angle from many directions around the moon, producing a circle called a halo. You can sometimes see one around the sun by day. Block the sun itself with the edge of a roof to look for the arc.
 
-## When the veil thickens
+## When the veil signals a change
 
-Think back to where the veil ended a few hours ago. If it now covers the whole sky, has turned grey, and shadows on the ground have faded, you may already be looking at [altostratus](altostratus.md). You can see this sequence when warmer air advances over colder air. The boundary is called a warm front. Steady rain or snow may follow. If the veil thins and the blue deepens again, there is less reason to expect that sequence to continue.
+Rain from the thin, transparent cloud itself rarely reaches the ground. Keep an eye on your shadow. If it disappears over the next few hours even out in the open, and the sky turns [solid grey](altostratus.md), a thicker cloud has arrived. This sequence can come before prolonged rain or snow. If the veil drifts away and the blue returns, it may well stay dry.
 
 ## Photographs
 

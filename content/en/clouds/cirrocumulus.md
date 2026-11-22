@@ -1,16 +1,14 @@
 # Cirrocumulus
 
-## How small is small?
+## What makes the white ripples?
 
-Pick a patch high overhead. Hold your hand at arm’s length. A single white grain is usually narrower than the tip of your little finger. Use a patch well above the horizon. Near the horizon even large clouds can look tiny in the distance. If each rounded piece takes up more space and has a distinctly grey side, compare it with [altocumulus](altocumulus.md).
+Tiny white specks cover a patch of sky. Blue shows in the gaps, and some specks form rows like ripples on water. If the patch is high overhead, try holding out your hand at arm’s length. A single speck is usually narrower than the tip of your little finger. If the clumps look larger and have a grey side, compare them with [altocumulus](altocumulus.md).
 
-## Where the ripples come from
+Each speck is a whole cluster of tiny ice crystals. In temperate regions these clouds are usually 5–13 km above the ground. Air sometimes moves in waves at that height. Where it rises it cools, and crystals can form from the water vapour in it. Where those crystals catch the sunlight, you see a white ripple. Where the air sinks and warms, crystals disappear and blue sky shows through again.
 
-In temperate latitudes these clouds usually lie 5–13 km up. They consist mostly of ice crystals. Sometimes the air at this height moves in waves. Where it rises it cools, and some of its invisible water vapour turns into tiny crystals. Together the crystals show up as a white band. Where the air sinks and warms again, a gap opens. A series of waves can draw rows of ripples across the sky.
+## What happens at ground level?
 
-## What happens underneath?
-
-The rows can dwindle to a few specks while the ground below stays dry. If a continuous [white veil](cirrostratus.md) starts filling the gaps, follow the veil over the next few hours. If the veil turns grey and hides the sun in the next few hours, a spell of steady rain or snow becomes more likely.
+This rippled sheet is usually thin. Even if crystals fall from it, on the long journey down they usually turn back into invisible vapour. It often stays dry beneath the cloud. Look at the gaps later. If the rows fade, the sky is clearing. If a [white veil](cirrostratus.md) fills the gaps, watch whether it turns grey and thickens. That change over several hours can come before rain.
 
 ## Photographs
 

@@ -34,6 +34,8 @@ Start with the view available to someone standing outdoors. A cloud seen from th
 - **Other things to notice.** Explain relevant combinations with felt wind, relative temperature or personal barometer readings directly in the article. Mention differences between land and open water when they change the interpretation.
 - **Related phenomena and optional history.** Connect an observable phenomenon, such as a halo, to its physical cause. Include an interesting fact, etymology or historical account when it adds understanding and has a credible source.
 
+Each article may be someone’s first encounter with clouds. Start from an ordinary sight and explain what it consists of, how the water or ice takes that shape, and what that changes for a person underneath. Give one observation the reader can repeat later. When a cloud is a distant sign of approaching rain, explain which cloud may actually deliver the rain.
+
 ## Editorial example
 
 A reader sees wispy cirrus. The wisps alone give little basis for a local rain forecast. If a high veil later spreads and the cloud cover thickens, the sequence can support an interpretation of an approaching frontal system. Point out what to look for in the cirrostratus entry and explain why the sequence matters. Avoid presenting a transition between cloud types as a guarantee of rain or a thunderstorm.

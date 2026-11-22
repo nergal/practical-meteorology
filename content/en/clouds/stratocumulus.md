@@ -1,18 +1,14 @@
 # Stratocumulus (Sc)
 
-## One cloud or several?
+## Why the sky looks wavy
 
-Looking up, you can often follow a roll until it meets the next one or ends at a strip of blue. When the gaps close, the darker hollows still show where the rolls meet. A sheet of [stratus](stratus.md) at a similar height looks much smoother.
+Broad, rounded bands stretch overhead. Part of a band catches the light, with a hollow of shade beside it. The wavy shape still shows even where all the blue gaps have closed. These rounded outlines are harder to find in a smooth sheet of [stratus](stratus.md).
 
-## How the rolls join up
+The bands are made of tiny water drops. One way to see them form is to watch scattered [white heaps of cloud](cumulus.md) over a plain. Air rises from warm ground and cools. Where invisible water vapour turns into drops, a white heap appears. Sometimes warmer air higher up keeps the rising air from travelling much farther. The heaps spread sideways and meet, making a sheet with rounded edges. In temperate regions the cloud usually begins less than 2 km above the ground.
 
-In temperate latitudes you are usually looking at cloud less than 2 km above you. A morning of scattered [cumulus](cumulus.md) over a plain can turn into an almost unbroken afternoon sky. Rising air cools until some of its water vapour turns into visible droplets. If the rising air meets a layer of warmer air above, it may stop rising. The clouds spread sideways and join.
+## What the gaps mean for the day
 
-## Will the sun come out?
-
-It often stays dry under these clouds, though thicker patches can give light rain or snow. If the gaps are getting wider as the surrounding cloud dissolves, you may see more sunshine over the next hour. A gap that keeps its shape as it passes overhead gives only a brief spell of sun.
-
-Over land, a blanket of cloud can slow the warming of the ground by day. At night the ground loses heat quickly under clear skies. Under low cloud it usually cools more slowly if the wind stays much the same.
+It often stays dry under this shallow cloud, though thicker patches can give light rain. You can feel the shade straight away. If the edges thin and the gaps grow wider, sunshine can warm the ground for longer. A single gap drifting overhead may give you only a few minutes of sun. At night some of the heat the ground gives off returns to the surface from the low clouds. With much the same wind, the ground usually cools more slowly than on a clear night.
 
 ## Photographs
 

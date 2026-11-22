@@ -1,14 +1,18 @@
 # Cirrus (Ci)
 
-## What makes the tail?
+## What makes a white feather in the sky?
 
-A small white tuft sometimes marks the thickest part of a streak. Fine threads trail away from it. In temperate latitudes this happens roughly 5–13 km up. Ice crystals grow in the tuft and slowly fall. The wind lower down often blows at a different speed, stretching the trail of crystals into a long, curved tail.
+White threads stretch across the blue. Some start at a bright tuft and trail off in a curved tail. In temperate regions these clouds usually hang 5–13 km up. It is so cold there that a white streak consists of countless tiny ice crystals. Each is too small to see from the ground. Together they scatter enough sunlight for the cloud to show up.
 
-## Does rain follow cirrus?
+The crystals slowly fall. A little lower down, the wind may blow faster or in a different direction. It carries the ice sideways, drawing it into a feathery trail. The trail shows how the air is moving kilometres above you. At ground level it can be quite calm.
 
-Blue sky can show between scattered streaks all day. Watch what happens to those gaps. If a white [veil](cirrostratus.md) spreads across them from one side of the sky and the sun grows dimmer over the next few hours, the boundary between warmer and colder air may be approaching. This boundary is called a front. As warmer air rides up over colder air, it cools. Some of its invisible water vapour turns into droplets or ice crystals, forming a succession of clouds. The first visible sign is ice cloud high up. Later, a thick layer may develop below it and bring steady rain or snow.
+## Does it mean rain?
 
-If you have a barometer, compare several readings taken at the same place. Falling pressure together with thickening cloud adds weight to the idea of an approaching front. A single streak tells you which way the wind is carrying ice crystals several kilometres up. At sail height the wind may be coming from quite a different direction.
+Ice from a thin streak usually disappears on the way down as it turns back into invisible water vapour. A few white threads can cross the sky on a perfectly dry day.
+
+Notice whether blue sky shows between them. If a [thin white veil](cirrostratus.md) fills the gaps over the next few hours and the sky beneath it turns grey, a wide band of rain or snow may be approaching. This can happen as warmer air advances and rises over colder air. From a distance you see the highest clouds first. Thicker clouds that can bring steady rain or snow may arrive later.
+
+If you have a barometer, compare readings taken at the same place. If pressure has been falling for several hours while the cloud thickens, you have another sign that the weather is changing.
 
 ## Photographs
 

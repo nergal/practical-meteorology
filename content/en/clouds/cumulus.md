@@ -1,18 +1,14 @@
 # Cumulus
 
-## What you see from the ground
+## What gives the cloud its shape?
 
-A cloud straight overhead may show you little more than a grey patch. Pick one farther away, where you can see blue sky between the cloud and the horizon. The side facing the ground often looks almost straight. On the side facing open sky, white bulges catch the light. This side view makes even a tall cloud easier to recognise.
+A white cloud drifts across a field. Seen from the side, its edge facing the ground is almost straight. On the side facing blue sky, it bulges into rounded white heaps. When the same cloud passes directly overhead, all you may see is a grey patch.
 
-## Why several clouds line up
-
-On a sunny day pockets of air warmed by a field begin to rise. As they rise, they expand and cool. Eventually some of the invisible water vapour in the air turns into tiny drops. That is where the cloud first becomes visible. Where neighbouring fields are equally warm and damp, this happens at about the same height, often less than 2 km up in temperate latitudes. Over the sea, cold air passing over warmer water can rise in much the same way.
+Sunshine warms the ground. The ground warms the air touching it, which rises and cools. There is water in the air in the form of invisible vapour. At a certain height the rising air becomes cool enough for some of that water to form tiny drops. Together the drops are visible. This is where the straight edge of the cloud begins, often less than 2 km up in temperate regions. Higher up, separate pockets of air keep rising. Each adds another white bulge to the cloud.
 
 ## Could it turn into a shower?
 
-Pick a cloud you can see from the side and look again in a few minutes. If its outline frays and blue starts to show through, the droplets are evaporating. It usually stays dry while the clouds stay small.
-
-If fresh white bulges keep rising from the same spot, air is still feeding the cloud from below. A tall cumulus can already give a shower. When the rounded outline blurs and the cloud begins to spread into wisps sideways, compare it with [cumulonimbus](cumulonimbus.md). Underneath, the first change you feel may be a cool gust ahead of the rain.
+A small cloud gives you a few minutes of shade. Its drops are so small that they often evaporate, leaving the ground dry. Look at the same cloud a few minutes later. If fresh bulges keep rising from one spot until the cloud towers above its neighbours, air is still rising through the cloud. Inside it, drops bump into one another and join. Once enough drops have grown large, they can fall as a shower. If it grows taller still and begins to spread into white streamers high up, compare it with [cumulonimbus](cumulonimbus.md).
 
 ## Photographs
 
