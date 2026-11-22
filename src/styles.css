@@ -170,8 +170,40 @@ a {
 }
 
 .atlas-card .atlas-photo {
-  max-block-size: 46vh;
-  object-fit: contain;
+  min-block-size: min(48vw, 34svh, 15rem);
+  max-block-size: min(46svh, 26rem);
+  object-fit: cover;
+  mask-image: linear-gradient(to bottom, black 74%, rgb(0 0 0 / 94%) 79%,
+    rgb(0 0 0 / 70%) 85%, rgb(0 0 0 / 28%) 92%, transparent);
+}
+
+.atlas-gallery .atlas-media {
+  display: flex;
+  justify-content: center;
+  margin-inline: var(--gutter);
+}
+
+.atlas-print {
+  position: relative;
+  isolation: isolate;
+  max-inline-size: 100%;
+}
+
+.atlas-print::before {
+  position: absolute;
+  z-index: -1;
+  inset: 12% 2% -0.35rem;
+  background: var(--photo) center / 100% 100% no-repeat;
+  filter: blur(1rem);
+  opacity: 0.45;
+  pointer-events: none;
+  content: '';
+}
+
+.atlas-print .atlas-photo {
+  inline-size: auto;
+  max-inline-size: 100%;
+  max-block-size: 68svh;
 }
 
 .atlas-photo-action:focus-visible {

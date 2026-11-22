@@ -1,7 +1,7 @@
 import { App as CapacitorApp } from '@capacitor/app';
 import { Capacitor } from '@capacitor/core';
 import { Fragment, useEffect, useLayoutEffect, useRef, useState } from 'react';
-import type { KeyboardEvent, MouseEvent, TouchEvent } from 'react';
+import type { CSSProperties, KeyboardEvent, MouseEvent, TouchEvent } from 'react';
 import { atlas, type Locale } from './atlas';
 
 type View = 'card' | 'detail' | 'credit';
@@ -336,7 +336,9 @@ export default function App({ locale }: { locale: Locale }) {
             {title()}
             <section className="atlas-gallery" aria-label={strings.gallery} {...swipe}>
               <div className="atlas-media">
-                <img className="atlas-photo" src={photo.url} alt={photo.alt} draggable={false} />
+                <div className="atlas-print" style={{ '--photo': `url("${photo.url}")` } as CSSProperties}>
+                  <img className="atlas-photo" src={photo.url} alt={photo.alt} draggable={false} />
+                </div>
               </div>
               {controls(page.frame, entry.photos.length)}
               <p className="atlas-caption">{photo.caption}</p>
